@@ -1,0 +1,12 @@
+# Ignore rules
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# Capture files
+*.capture
+
+# Secrets folder
+secrets/
