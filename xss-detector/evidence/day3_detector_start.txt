@@ -1,0 +1,30 @@
+STEP 1: finalise rules + features, train on normal input only
+============================================================
+
+RULES (rule_based_detector.PATTERNS):
+  script_tag           <\s*script\b
+  event_handler        on(error|load|focus|mouseover|toggle|start)\s*=
+  javascript_uri       javascript\s*:
+  iframe_or_object     <\s*(iframe|object|embed)\b
+  svg_or_img_vector    <\s*(svg|img)\b[^>]*on\w+\s*=
+  html_entity_encoded  &#x?[0-9a-f]+;
+  url_encoded_script   %3C\s*script
+  eval_or_document     \b(eval|document\.cookie|fetch)\s*\(
+
+FEATURES (features.FEATURE_NAMES):
+  length
+  special_char_ratio
+  tag_count
+  entropy
+  digit_ratio
+  uppercase_ratio
+  max_word_length
+
+Training IsolationForest on benign-only samples (xss_dataset.csv, label == 0), random_state=42 ...
+Model trained and fit without error.
+
+Sanity check -- one test string:
+  input:    'test input'
+  verdict:  ALLOW
+  reason:   clean
+  anomaly_score: +0.100

