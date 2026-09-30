@@ -1,4 +1,4 @@
 timestamp,input,verdict,reason
-2026-09-30T09:28:09.171964,Rahul Kumar,ALLOW,clean: no rule or anomaly signal
-2026-09-30T09:28:09.227327,<script>alert(1)</script>,BLOCK,rule reason: matched script_tag
-2026-09-30T09:28:09.256495,"';alert(String.fromCharCode(88,83,83))//",FLAG,anomaly reason: IsolationForest score=-0.077
+2026-09-30T05:44:45.390534,Rahul Kumar,ALLOW,clean: no rule or anomaly signal
+2026-09-30T05:44:45.422466,<script>alert(1)</script>,BLOCK,rule reason: matched script_tag
+2026-09-30T05:44:45.445255,"';alert(String.fromCharCode(88,83,83))//",FLAG,anomaly reason: IsolationForest score=-0.077
