@@ -1,0 +1,8 @@
+Day 2 test inputs (src/payloads.py)
+========================================
+
+normal: Rahul Kumar
+rule_match: <script>alert(1)</script>
+no_rule: ';alert(String.fromCharCode(88,83,83))//
+
+Note: no_rule payload swapped from the suggested <svg onload=alert(1)> per the task's own fallback instruction (this project's rules already match that string via event_handler and svg_or_img_vector). Swapped for a payload this project's rule engine genuinely misses: ';alert(String.fromCharCode(88,83,83))//

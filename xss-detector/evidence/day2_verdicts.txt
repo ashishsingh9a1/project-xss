@@ -1,0 +1,16 @@
+Day 2 verdict confirmation
+========================================
+
+[normal] input: Rahul Kumar
+  expected: ALLOW   got: ALLOW   OK
+  reason: clean: no rule or anomaly signal
+
+[rule_match] input: <script>alert(1)</script>
+  expected: BLOCK   got: BLOCK   OK
+  reason: rule reason: matched script_tag
+
+[no_rule] input: ';alert(String.fromCharCode(88,83,83))//
+  expected: FLAG   got: FLAG   OK
+  reason: anomaly reason: IsolationForest score=-0.077
+
+All three verdicts correct.
