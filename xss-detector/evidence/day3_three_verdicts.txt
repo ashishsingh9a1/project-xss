@@ -1,4 +1,4 @@
-STEP 2: verdicts on yesterday's three logged rows (from evidence\day2_log.csv)
+STEP 2: verdicts on yesterday's three logged rows (from evidence/day2_log.csv)
 ============================================================
 
 [normal] input: Rahul Kumar
