@@ -1,0 +1,16 @@
+[
+  {
+    "time": "11:02:31",
+    "summary": "<script>alert(1)</script>",
+    "severity": "Medium",
+    "attack_type": "Script tag injection",
+    "reason": "rule:script_tag"
+  },
+  {
+    "time": "11:02:47",
+    "summary": "<svg onload=alert(1)>",
+    "severity": "Medium",
+    "attack_type": "Event handler injection",
+    "reason": "rule:event_handler,svg_or_img_vector"
+  }
+]
