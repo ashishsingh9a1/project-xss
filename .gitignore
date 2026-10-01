@@ -10,3 +10,7 @@
 
 # Secrets folder
 secrets/
+
+__pycache__/
+*.pyc
+xss-detector/data/findings.json
