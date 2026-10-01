@@ -5,6 +5,24 @@ import datetime
 from flask import Flask, render_template_string, jsonify, request, Response
 
 app = Flask(__name__)
+
+# ---------------------------------------------------------------------------
+# REAL DETECTOR WIRING  (hybrid pipeline: rules + anomaly model)
+# ---------------------------------------------------------------------------
+HERE = os.path.dirname(os.path.abspath(__file__))
+for _p in (HERE, os.path.join(HERE, ".."), os.path.join(HERE, "..", "src")):
+    if os.path.isdir(_p) and _p not in sys.path:
+        sys.path.insert(0, _p)
+
+DETECTOR_ERROR = None
+ANOMALY_MODEL = None
+try:
+    import detector
+    import anomaly_detector
+    ANOMALY_MODEL = anomaly_detector.load_model()   # load once at startup
+except Exception as e:                              # fail loudly, never fall back to weak rules
+    DETECTOR_ERROR = f"{type(e).__name__}: {e}"
+
 FINDINGS_FILE = os.path.join(os.path.dirname(__file__), "..", "data", "findings.json")
 
 def get_findings():
@@ -188,10 +206,10 @@ DASH_HTML = """
                 tr.setAttribute('data-severity', sev);
                 tr.onclick = () => showModal(r);
                 tr.innerHTML = `
-                    <td>${r.time || ''}</td>
+                    <td>${escapeHtml(r.time || '')}</td>
                     <td><code>${escapeHtml(r.summary || '')}</code></td>
-                    <td>${r.attack_type || 'XSS Attempt'}</td>
-                    <td>${r.reason || 'rule_match'}</td>
+                    <td>${escapeHtml(r.attack_type || 'XSS Attempt')}</td>
+                    <td>${escapeHtml(String(r.reason || 'rule_match'))}</td>
                     <td><span class="badge ${bgClass}">${sev}</span></td>
                 `;
                 tbody.appendChild(tr);
@@ -292,42 +310,32 @@ def api_findings():
 
 @app.route("/api/clear", methods=["POST"])
 def clear_findings():
+    os.makedirs(os.path.dirname(FINDINGS_FILE), exist_ok=True)
     with open(FINDINGS_FILE, "w") as f:
         json.dump([], f)
     return jsonify({"status": "cleared"})
 
 @app.route("/scan", methods=["POST"])
 def scan():
-    data = request.get_json(force=True) or {}
+    if DETECTOR_ERROR:
+        return jsonify({"error": "detector failed to load: " + DETECTOR_ERROR}), 500
+
+    data = request.get_json(force=True, silent=True) or {}
     text = data.get("text", "")
-    source_id = data.get("source_id", "API")
-    
-    verdict = "ALLOW"
-    attack_type = "None"
-    reason = "clean"
-    severity = "Low"
+    source_id = data.get("source_id", request.remote_addr or "API")
+    target_field = data.get("target_field", "api")
 
-    lower_text = text.lower()
-    if "<script" in lower_text:
-        verdict = "BLOCK"
-        attack_type = "Script Tag Injection"
-        reason = "rule:script_tag"
-        severity = "High" if "cookie" in lower_text or "fetch" in lower_text else "Medium"
-    elif "onload=" in lower_text or "onerror=" in lower_text or "onclick=" in lower_text:
-        verdict = "BLOCK"
-        attack_type = "Event Handler Injection"
-        reason = "rule:event_handler"
-        severity = "Medium"
+    result = detector.detect(text, source_id, target_field, anomaly_model=ANOMALY_MODEL)
 
-    if verdict in ["BLOCK", "FLAG"]:
-        save_finding(summary=text, attack_type=attack_type, reason=reason, severity=severity, source_id=source_id)
-
-    return jsonify({
-        "verdict": verdict,
-        "attack_type": attack_type,
-        "reason": reason,
-        "severity": severity
-    })
+    if result["verdict"] in ("BLOCK", "FLAG"):
+        save_finding(
+            summary=text,
+            attack_type=result["attack_type"] or "Unclassified",
+            reason=result["reason"],
+            severity=result["severity"] or "Low",
+            source_id=source_id,
+        )
+    return jsonify(result)
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=True)
